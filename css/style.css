@@ -101,6 +101,10 @@ body{
     background-color:#979996;
     
 }
+
+input{
+	text-align: center;
+}
 .container3{
     display: flex;
     align-items: center; 
