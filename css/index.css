@@ -1,7 +1,3 @@
-/////////////////
-// Page index //
-////////////////
-
 @font-face {
     font-family: "Saiyan";
     src: url("../font/Saiyan-Sans.ttf") format("truetype");
@@ -19,6 +15,7 @@ body {
 h1,
 h2 {
     margin: 0;
+    text-align: center;
 }
 
 a {
@@ -73,7 +70,8 @@ a {
 
 }
 
-.partenaires {
+footer {
+    top: 10px;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -90,9 +88,3 @@ a {
     width: 25%;
     height: 70%;
 }
-
-
-
-///////////////
-// Atelier 2 //
-///////////////
