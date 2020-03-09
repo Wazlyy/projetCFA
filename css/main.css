@@ -1,6 +1,5 @@
-///////////////
-// Connexion //
-///////////////
+/*Connexion*/
+
 
 body{
     background-color:#979996;
@@ -128,6 +127,137 @@ input{
   }
 
 
-  ///////////////
-  // Atelier 2 //
-  ///////////////
+
+/*Atelier 1*/
+  
+.container4{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+
+
+}
+/*Atelier 1 et rencontre avec entreprise*/
+.atelier1{
+    margin-top: 10%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+}
+/*Fin/*
+
+/*A quel entrepreneur vous identifiez vous
+        le plus ? Classer par ordre de
+        préférence.*/
+.ordre{
+    color:rgb(238, 238, 238);
+    font-size: 15px;
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+
+}
+/*Fin*/
+/*Pour les 5 entreprises*/
+.entreprise1{
+  margin-bottom: 12px;
+  color: white;
+  background-color: #4CBEDD;
+border: 3px solid
+#4CBEDD;
+border-radius: 20px;
+width: 90%;
+font-size: 15px;
+height: 40px;
+font-family:  Helvetica, sans-serif;
+font-weight: bold;
+}
+.entreprise2{
+  margin-bottom: 12px;
+  color: white;
+  background-color: #4CBEDD;
+border: 3px solid
+#4CBEDD;
+border-radius: 20px;
+width: 90%;
+font-size: 15px;
+height: 40px;
+font-family:  Helvetica, sans-serif;
+font-weight: bold;
+}
+.entreprise3{
+  margin-bottom: 12px;
+  color: white;
+  background-color: #4CBEDD;
+border: 3px solid
+#4CBEDD;
+border-radius: 20px;
+width: 90%;
+font-size: 15px;
+height: 40px;
+font-family:  Helvetica, sans-serif;
+font-weight: bold;
+}
+.entreprise4{
+  margin-bottom: 12px;
+  color: white;
+  background-color: #4CBEDD;
+border: 3px solid
+#4CBEDD;
+border-radius: 20px;
+width: 90%;
+font-size: 15px;
+height: 40px;
+font-family:  Helvetica, sans-serif;
+font-weight: bold;
+}
+.entreprise5{
+  margin-bottom: 12px;
+  color: white;
+  background-color: #4CBEDD;
+border: 3px solid#4CBEDD;
+border-radius: 20px;
+width: 90%;
+height: 40px;
+font-family:  Helvetica, sans-serif;
+font-weight: bold;
+}
+/*Fin boutons entreprise*/
+
+/*Bouton suivant*/
+.button__holder {
+    position: relative;
+    width: 100%;
+      margin-top: 50px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  /*  background-color: #1a1a1a;*/
+  }
+  .button__holder:after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+  /*  background: rgba(26, 26, 26, 0.7);*/
+  }
+  .button__holder  {
+    margin-right: 1em;
+    text-align: center;
+    color: rgb(59, 93, 138);
+  }
