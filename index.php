@@ -18,8 +18,8 @@
             <h2 class="titre2">SOYEZ ENTREPRENEUR DE VOTRE VIE</h2>
 
             <div class="zone_btn">
-                <button type="button" class="btn_inscription"><a href="">Inscription</a></button>
-                <button type="button" class="btn_connexion"><a href="">Connexion</a></button>
+                <button type="button" class="btn_inscription"><a href="inscription.php">Inscription</a></button>
+                <button type="button" class="btn_connexion"><a href="connexion.php">Connexion</a></button>
             </div>
         
         </div>
