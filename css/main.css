@@ -11,10 +11,6 @@
   padding: 0;
 }
 
-html, body {
-  height: 100%;
-}
-
 input{
 	text-align: center;
 }
@@ -390,99 +386,64 @@ font-weight  : bold;
 
   /*Atelier 2*/
 
-  #ctnr_at2 {
-    height: 100%;
-    width: 100%;
-  }
+/*Toute la page*/
+.ctnr_at2 {
+  background-color: red;
+  width: 100%;
+  height: 812px;
+}
 
-  .zone_back {
-    background-color: red;
-    width: 100%;
-    height: 25%;
-  }
+/*Zone flèche retour*/
+.zone_retour {
+  background-color: royalblue;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0 0 0;
+}
 
-  .fleche_back_a2 {
-    margin-left: 10px;
-  }
+.fleche_retour {
+  margin-left: 15px;
+}
 
-  .zone_titre1_atelier2 {
-    background-color: blue;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    padding: 10%;
-  }
+/*Zone Titre H1 + img boussole + instruction*/
+.zone_titre_at2 {
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .zone_titre1_atelier2 h1 {
-    font-size: 22px;
-    color: white;
-  }
+.titre1_at2 {
+  text-align: center;
+  color: white;
+  font-size: 1.73em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
 
-  .zone_boussole_atelier2 {
-    background-color: green;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20%;
-  }
+.img_boussole_at2 {
+  margin-bottom: 50px;
+}
 
-  .zone_boussole_atelier2 {
-    color: white;
-    text-align: center;
-  }
+.instruction_at2 {
+  color: grey;
+  font-style: italic;
+  font-size: 1.2em;
+  text-align: center;
+}
 
-  .zone_curseur_atelier2 {
-    background-color: gold;
-    width: 100%;
-  }
+/*Zone 1er slider + texte*/
+.zone_slider1_at2 {
+  background-color: grey;
+  width: 100%;
+  height: 150px;
+}
 
-  .consigne_at2 {
-    color: white;
-    font-size: 18px;
-    font-family: Helvetica, sans-serif;
-    margin-bottom: 20px;
-  }
-
-/* Mise en place du slider */
-/* TODO: Changer images*/
-/* TODO: Add infobulle sur slider*/
-  .slidecontainer {
-    width: 100%;
-  }
-  
-  .slider {
-    -webkit-appearance: none;
-    width: 100%;
-    height: 10px;
-    border-radius: 5px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-  }
-  
-  .slider:hover {
-    opacity: 1;
-  }
-  
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 23px;
-    height: 24px;
-    border: 0;
-    background: url('img/logo_icon.png');
-    cursor: pointer;
-  }
-  
-  .slider::-moz-range-thumb {
-    width: 23px;
-    height: 24px;
-    border: 0;
-    background: url('img/logo_icon.png');
-    cursor: pointer;
-  }
-/*fin slider*/
+.txt_slider1_at2 {
+  color: white;
+  font-weight: bold ;
+  font-size: 1.6em;
+}

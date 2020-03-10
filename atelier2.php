@@ -11,28 +11,26 @@
     </head>
     <body>
 
-        <div class="container-fluid" id="ctnr_at2">
+        <section class="container-fluid ctnr_at2">
             <div class="row">
-                <div class="zone_back" class="col-12">
-                    <img class="fleche_back_a2" src="" alt="fleche_retour" />
+                
+                <div class="col-12 zone_retour">
+                    <img class="fleche_retour" src="img/icon-gauche.png" alt="fleche_retour" />
                 </div>
-                <div class="zone_titre1_atelier2" class="col-12">
-                    <h1>Atelier 2 : En route pour Paris-Daker et l'île déserte</h1>
+
+                <div class="col-12 zone_titre_at2">
+                    <h1 class="titre1_at2">Atelier 2 : En route pour Paris-Dakar et l'île déserte</h1>
+                    <img class="img_boussole_at2" src="" alt="img_boussole" />
+                    <p class="instruction_at2">Graduer ces affirmations en faisant <br /> glisser le curseur</p>
                 </div>
-                <div class="zone_boussole_atelier2" class="col-12">
-                    <img class="img_boussole" src="" alt="boussole" />
-                    <p>Graduer ces affirmations en faisant glisser le curseur</p>
+
+                <div class="col-12 zone_slider1_at2">
+                    <h2 class="txt_slider1_at2">Vous avez été plutôt organisé(e)</h2>
+                    <!-- Slider à mettre ici -->
                 </div>
-                <div class="zone_curseur_atelier2" class="col-12">
-                    <h2 class="consigne_at2">Vous avez été plutôt organisé(e) :</h2>
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    <p>Value: <span id="demo"></span></p>
-                </div>
-                <div class="col-12" class="pagination_atelier2">
-                    
-                </div>
+
             </div>
-        </div>
+        </section>
         
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
