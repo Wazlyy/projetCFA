@@ -14,7 +14,7 @@
         <div class="container-fluid" id="ctnr_at2">
             <div class="row">
                 <div class="zone_back" class="col-12">
-                    <img class="fleche_back_a2" src="" alt="fleche_retour" />
+                    <img class="fleche_back_a2" src="img/icon-gauche.png" alt="fleche_retour" />
                 </div>
                 <div class="zone_titre1_atelier2" class="col-12">
                     <h1>Atelier 2 : En route pour Paris-Daker et l'île déserte</h1>
@@ -25,8 +25,10 @@
                 </div>
                 <div class="zone_curseur_atelier2" class="col-12">
                     <h2 class="consigne_at2">Vous avez été plutôt organisé(e) :</h2>
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    <p>Value: <span id="demo"></span></p>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        <p>Value: <span id="demo"></span></p>
+                    </div>
                 </div>
                 <div class="col-12" class="pagination_atelier2">
                     
