@@ -1,342 +1,356 @@
 /*Connexion*/
 
 
-/*body{
-    background-color:#979996;
-    
-}*/
+/*body {
+    background-color: #979996;
+  }*/
 
 
 * {
-  margin: 0;
+  margin : 0;
   padding: 0;
+}
+
+html, body {
+  height: 100%;
 }
 
 input{
 	text-align: center;
 }
+
 .container3{
-    display: flex;
-    align-items: center; 
+    display       : flex;
+    align-items   : center;
     flex-direction: column;
-
-
 }
-.newCompte{
+
+.newCompte {
     margin-top: 10%;
-    color: white;
-    font-size: 20px;
+    color     : white;
+    font-size : 20px;
 }
 
-.home{
+.home {
     margin-top: 25px;
 }
 
-.telechargement{
-    color:white;
-    font-size: 15px;
+.telechargement {
+    color     : white;
+    font-size : 15px;
     text-align: center;
 }
 
 
-.nominsc{
-  margin-top: 20px;
-  border:3px solid #4CBEDD;
+.nominsc {
+  margin-top   : 20px;
+  border       : 3px solid #4CBEDD;
   border-radius: 20px;
-  width:90% ;
-  font-size: 20px;
-  height: 40px;
+  width        : 90% ;
+  font-size    : 20px;
+  height       : 40px;
 }
-.prenominsc{
-  margin-top: 20px;
-  border:3px solid #4CBEDD;
+
+.prenominsc {
+  margin-top   : 20px;
+  border       : 3px solid #4CBEDD;
   border-radius: 20px;
-  width:90% ;
-  font-size: 20px;
-  height: 40px;
+  width        : 90% ;
+  font-size    : 20px;
+  height       : 40px;
 }
-.emailinsc{
-  margin-top: 20px;
-  border:3px solid #4CBEDD;
+
+.emailinsc {
+  margin-top   : 20px;
+  border       : 3px solid #4CBEDD;
   border-radius: 20px;
-  width:90% ;
-  font-size: 20px;
-  height: 40px;
+  width        : 90% ;
+  font-size    : 20px;
+  height       : 40px;
 }
+
 .passwordinsc{ 
-    margin-top: 20px;
-    border:3px solid #4CBEDD;
+    margin-top   : 20px;
+    border       : 3px solid #4CBEDD;
     border-radius: 20px;
-    width:90% ;
-    font-size: 20px;
-    height: 40px;
+    width        : 90% ;
+    font-size    : 20px;
+    height       : 40px;
 }
 
 .button__holder {
-    position: relative;
-    width: 100%;
-      margin-top: 50px;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    position         : relative;
+    width            : 100%;
+    margin-top       : 50px;
+    height           : 100%;
+    display          : -webkit-box;
+    display          : -ms-flexbox;
+    display          : flex;
+    -ms-flex-wrap    : wrap;
+    flex-wrap        : wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-align   : center;
+    align-items      : center;
+    -webkit-box-pack : center;
+    -ms-flex-pack    : center;
+    justify-content  : center;
   /*  background-color: #1a1a1a;*/
   }
+
   .button__holder:after {
-    content: "";
+    content : "";
     position: absolute;
-    z-index: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  
+    z-index : 0;
+    top     : 0;
+    right   : 0;
+    bottom  : 0;
+    left    : 0;
   /*  background: rgba(26, 26, 26, 0.7);*/
   }
+
   .button__holder  {
     margin-right: 1em;
-    text-align: center;
-    color: rgb(59, 93, 138);
+    text-align  : center;
+    color       : rgb(59, 93, 138);
   }
   
   .plus {
-    position: relative;
-    z-index: 1;
-    width: 80px;
-    height: 80px;
-    color: #1a1a1a;
-    background: #4CBEDD;
-    border-radius: 50%;
-    border: none;
+    position          : relative;
+    z-index           : 1;
+    width             : 80px;
+    height            : 80px;
+    color             : #1a1a1a;
+    background        : #4CBEDD;
+    border-radius     : 50%;
+    border            : none;
     -webkit-transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
-    transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
-    transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
-    transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
+    transition        : box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
+    transition        : box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
+    transition        : box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
   }
+
   .plus:after {
-    content: "->";
-    font-size: 2.5em;
+    content    : "->";
+    font-size  : 2.5em;
     line-height: 1.1em;
   }
+
   .plus:hover {
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    box-shadow: 0 0 1px 15px rgba(59, 102, 138, 0.4), 0 0 1px 30px rgba(59, 109, 138, 0.1), 0 0 1px 45px rgba(59, 91, 138, 0.1);
+    transform        : rotate(45deg);
+    box-shadow       : 0 0 1px 15px rgba(59, 102, 138, 0.4), 0 0 1px 30px rgba(59, 109, 138, 0.1), 0 0 1px 45px rgba(59, 91, 138, 0.1);
   }
 
 
 
 /*Atelier 1*/
   
-.container4{
-    display: flex;
-    align-items: center; 
+.container4 {
+    display       : flex;
+    align-items   : center;
     flex-direction: column;
-
-
 }
+
 /*Atelier 1 et rencontre avec entreprise*/
-.atelier1{
-    margin-top: 10%;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    font-family:  Helvetica, sans-serif;
+.atelier1 {
+    margin-top : 10%;
+    color      : white;
+    font-size  : 15px;
+    text-align : center;
+    font-family: Helvetica, sans-serif;
 }
 /*Fin/*
 
 /*A quel entrepreneur vous identifiez vous
         le plus ? Classer par ordre de
         préférence.*/
-.ordre{
-    color:rgb(238, 238, 238);
-    font-size: 15px;
-    text-align: center;
-    font-family:  Helvetica, sans-serif;
-    font-style: italic;
+.ordre {
+    color      : rgb(238, 238, 238);
+    font-size  : 15px;
+    text-align : center;
+    font-family: Helvetica, sans-serif;
+    font-style : italic;
     font-weight: normal;
+}
 
-}
 /*Fin*/
+
 /*Pour les 5 entreprises*/
-.entreprise1{
-  margin-bottom: 12px;
-  color: white;
+.entreprise1 {
+  margin-bottom   : 12px;
+  color           : white;
   background-color: #4CBEDD;
-border: 3px solid
+  border          : 3px solid
 #4CBEDD;
 border-radius: 20px;
-width: 90%;
-font-size: 15px;
-height: 40px;
-font-family:  Helvetica, sans-serif;
-font-weight: bold;
+width        : 90%;
+font-size    : 15px;
+height       : 40px;
+font-family  : Helvetica, sans-serif;
+font-weight  : bold;
 }
-.entreprise2{
-  margin-bottom: 12px;
-  color: white;
+.entreprise2 {
+  margin-bottom   : 12px;
+  color           : white;
   background-color: #4CBEDD;
-border: 3px solid
+  border          : 3px solid
 #4CBEDD;
 border-radius: 20px;
-width: 90%;
-font-size: 15px;
-height: 40px;
-font-family:  Helvetica, sans-serif;
-font-weight: bold;
+width        : 90%;
+font-size    : 15px;
+height       : 40px;
+font-family  : Helvetica, sans-serif;
+font-weight  : bold;
 }
-.entreprise3{
-  margin-bottom: 12px;
-  color: white;
+
+.entreprise3 {
+  margin-bottom   : 12px;
+  color           : white;
   background-color: #4CBEDD;
-border: 3px solid
+  border          : 3px solid
 #4CBEDD;
 border-radius: 20px;
-width: 90%;
-font-size: 15px;
-height: 40px;
-font-family:  Helvetica, sans-serif;
-font-weight: bold;
+width        : 90%;
+font-size    : 15px;
+height       : 40px;
+font-family  : Helvetica, sans-serif;
+font-weight  : bold;
 }
-.entreprise4{
-  margin-bottom: 12px;
-  color: white;
+
+.entreprise4 {
+  margin-bottom   : 12px;
+  color           : white;
   background-color: #4CBEDD;
-border: 3px solid
+  border          : 3px solid
 #4CBEDD;
 border-radius: 20px;
-width: 90%;
-font-size: 15px;
-height: 40px;
-font-family:  Helvetica, sans-serif;
-font-weight: bold;
+width        : 90%;
+font-size    : 15px;
+height       : 40px;
+font-family  : Helvetica, sans-serif;
+font-weight  : bold;
 }
-.entreprise5{
-  margin-bottom: 12px;
-  color: white;
+
+.entreprise5 {
+  margin-bottom   : 12px;
+  color           : white;
   background-color: #4CBEDD;
-border: 3px solid#4CBEDD;
-border-radius: 20px;
-width: 90%;
-height: 40px;
-font-family:  Helvetica, sans-serif;
-font-weight: bold;
+  border          : 3px solid#4CBEDD;
+  border-radius   : 20px;
+  width           : 90%;
+  height          : 40px;
+  font-family     : Helvetica, sans-serif;
+  font-weight     : bold;
 }
 /*Fin boutons entreprise*/
 
 /*Bouton suivant*/
 
-.container3{
-    display: flex;
-    align-items: center; 
+.container3 {
+    display       : flex;
+    align-items   : center;
     flex-direction: column;
-
-
 }
-.newCompte{
+
+.newCompte {
     margin-top: 10%;
-    color: white;
-    font-size: 20px;
+    color     : white;
+    font-size : 20px;
 }
 
-.home{
+.home {
     margin-top: 25px;
 }
 
-.telechargement{
-    color:white;
-    font-size: 15px;
+.telechargement {
+    color     : white;
+    font-size : 15px;
     text-align: center;
 }
 
 
-.nominsc{
-  margin-top: 20px;
-  border:3px solid #4CBEDD;
+.nominsc {
+  margin-top   : 20px;
+  border       : 3px solid #4CBEDD;
   border-radius: 20px;
-  width:90% ;
-  font-size: 20px;
-  height: 40px;
+  width        : 90% ;
+  font-size    : 20px;
+  height       : 40px;
 }
-.prenominsc{
-  margin-top: 20px;
-  border:3px solid #4CBEDD;
+
+.prenominsc {
+  margin-top   : 20px;
+  border       : 3px solid #4CBEDD;
   border-radius: 20px;
-  width:90% ;
-  font-size: 20px;
-  height: 40px;
+  width        : 90% ;
+  font-size    : 20px;
+  height       : 40px;
 }
-.emailinsc{
-  margin-top: 20px;
-  border:3px solid #4CBEDD;
+
+.emailinsc {
+  margin-top   : 20px;
+  border       : 3px solid #4CBEDD;
   border-radius: 20px;
-  width:90% ;
-  font-size: 20px;
-  height: 40px;
+  width        : 90% ;
+  font-size    : 20px;
+  height       : 40px;
 }
-.passwordinsc{ 
-    margin-top: 20px;
-    border:3px solid #4CBEDD;
+
+.passwordinsc { 
+    margin-top   : 20px;
+    border       : 3px solid #4CBEDD;
     border-radius: 20px;
-    width:90% ;
-    font-size: 20px;
-    height: 40px;
+    width        : 90% ;
+    font-size    : 20px;
+    height       : 40px;
 }
 
 
-.container2{
-    display: flex;
-    align-items: center; 
+.container2 {
+    display       : flex;
+    align-items   : center;
     flex-direction: column;
-
-
 }
-.demarrer{
+
+.demarrer {
     margin-top: 10%;
-    color: white;
-    font-size: 25px;
+    color     : white;
+    font-size : 25px;
 }
 
-.home{
+.home {
     margin-top: 25px;
 }
 
-.connect{
-    color:white;
-    font-size: 25px;
+.connect {
+    color     : white;
+    font-size : 25px;
     text-align: center;
 }
 
-.email{
-    margin-top: 20px;
-    border:3px solid #4CBEDD;
+.email {
+    margin-top   : 20px;
+    border       : 3px solid #4CBEDD;
     border-radius: 20px;
-    width:90% ;
-    font-size: 20px;
-    height: 40px;
+    width        : 90% ;
+    font-size    : 20px;
+    height       : 40px;
 }
-.password{ 
-    margin-top: 20px;
-    border:3px solid #4CBEDD;
+
+.password { 
+    margin-top   : 20px;
+    border       : 3px solid #4CBEDD;
     border-radius: 20px;
-    width:90% ;
-    font-size: 20px;
-    height: 40px;
+    width        : 90% ;
+    font-size    : 20px;
+    height       : 40px;
 }
 
  
   .plus:hover {
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    box-shadow: 0 0 1px 15px rgba(59, 102, 138, 0.4), 0 0 1px 30px rgba(59, 109, 138, 0.1), 0 0 1px 45px rgba(59, 91, 138, 0.1);
+    transform        : rotate(45deg);
+    box-shadow       : 0 0 1px 15px rgba(59, 102, 138, 0.4), 0 0 1px 30px rgba(59, 109, 138, 0.1), 0 0 1px 45px rgba(59, 91, 138, 0.1);
   }
 
   
@@ -344,4 +358,103 @@ font-weight: bold;
 
   /*Atelier 2*/
 
+  #ctnr_at2 {
+    height: 100%;
+    width: 100%;
+  }
+
+  .zone_back {
+    background-color: red;
+    width: 100%;
+    height: 25%;
+  }
+
+  .fleche_back_a2 {
+    margin-left: 10px;
+  }
+
+  .zone_titre1_atelier2 {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 10%;
+  }
+
+  .zone_titre1_atelier2 h1 {
+    font-size: 22px;
+    color: white;
+  }
+
+  .zone_boussole_atelier2 {
+    background-color: green;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
+  }
+
+  .zone_boussole_atelier2 {
+    color: white;
+    text-align: center;
+  }
+
+  .zone_curseur_atelier2 {
+    background-color: gold;
+    width: 100%;
+  }
+
+  .consigne_at2 {
+    color: white;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 20px;
+  }
+
+/* Mise en place du slider */
+/* TODO: Changer images*/
+/* TODO: Add infobulle sur slider*/
+  .slidecontainer {
+    width: 100%;
+  }
   
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: url('contrasticon.png');
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: url('contrasticon.png');
+    cursor: pointer;
+  }
+/*fin slider*/
+
+
+  
+
