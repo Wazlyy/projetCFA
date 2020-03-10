@@ -16,6 +16,7 @@
         <img class="logo_declic" src="img/logo.png" alt="logo_declic" />
         <h1 class="titre1">DECLIC</h1>
         <h2 class="titre2">SOYEZ ENTREPRENEUR DE VOTRE VIE</h2>
+        <img src="img/icon-gauche.png" alt="fleche">
         <div class="zone_btn">
             <button type="button" class="btn_inscription"><a href="inscription.php">Inscription</a></button>
             <button type="button" class="btn_connexion"><a href="connexion.php">Connexion</a></button>
