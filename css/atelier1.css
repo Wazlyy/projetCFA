@@ -1,5 +1,12 @@
 /*Atelier 1*/
-  
+body {
+  background-color: #979996;
+}
+
+* {
+  margin : 0;
+  padding: 0;
+}
 .container4 {
     display       : flex;
     align-items   : center;
@@ -26,12 +33,14 @@
     font-family: Helvetica, sans-serif;
     font-style : italic;
     font-weight: normal;
+
 }
 
 /*Fin*/
 
 /*Pour les 5 entreprises*/
 .entreprise1 {
+  margin-top: 20px;
   margin-bottom   : 12px;
   color           : white;
   background-color: #4CBEDD;
@@ -101,110 +110,16 @@ font-weight  : bold;
 
 /*Bouton suivant*/
 
-.container3 {
+.boutonfleche{
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-}
-
-.newCompte {
-    margin-top: 10%;
-    color     : white;
-    font-size : 20px;
-}
-
-.home {
-    margin-top: 25px;
-}
-
-.telechargement {
-    color     : white;
-    font-size : 15px;
-    text-align: center;
+  width: 100px;
+  margin-top: 20%;
 }
 
 
-.nominsc {
-  margin-top   : 20px;
-  border       : 3px solid #4CBEDD;
-  border-radius: 20px;
-  width        : 90% ;
-  font-size    : 20px;
-  height       : 40px;
-}
-
-.prenominsc {
-  margin-top   : 20px;
-  border       : 3px solid #4CBEDD;
-  border-radius: 20px;
-  width        : 90% ;
-  font-size    : 20px;
-  height       : 40px;
-}
-
-.emailinsc {
-  margin-top   : 20px;
-  border       : 3px solid #4CBEDD;
-  border-radius: 20px;
-  width        : 90% ;
-  font-size    : 20px;
-  height       : 40px;
-}
-
-.passwordinsc { 
-    margin-top   : 20px;
-    border       : 3px solid #4CBEDD;
-    border-radius: 20px;
-    width        : 90% ;
-    font-size    : 20px;
-    height       : 40px;
-}
 
 
-.container2 {
-    display       : flex;
-    align-items   : center;
-    flex-direction: column;
-}
 
-.demarrer {
-    margin-top: 10%;
-    color     : white;
-    font-size : 25px;
-}
-
-.home {
-    margin-top: 25px;
-}
-
-.connect {
-    color     : white;
-    font-size : 25px;
-    text-align: center;
-}
-
-.email {
-    margin-top   : 20px;
-    border       : 3px solid #4CBEDD;
-    border-radius: 20px;
-    width        : 90% ;
-    font-size    : 20px;
-    height       : 40px;
-}
-
-.password { 
-    margin-top   : 20px;
-    border       : 3px solid #4CBEDD;
-    border-radius: 20px;
-    width        : 90% ;
-    font-size    : 20px;
-    height       : 40px;
-}
 
  
-  .plus:hover {
-    -webkit-transform: rotate(45deg);
-    transform        : rotate(45deg);
-    box-shadow       : 0 0 1px 15px rgba(59, 102, 138, 0.4), 0 0 1px 30px rgba(59, 109, 138, 0.1), 0 0 1px 45px rgba(59, 91, 138, 0.1);
-  }

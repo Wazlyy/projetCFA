@@ -12,16 +12,18 @@
 <body>
 <div class="container-fluid">
     <h3 class="demarrer">Démarrer</h3>
-    <img class="home" src="img/homelogo.png" width="100px">
+    <svg class="home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.93 3.43"><defs><style>.cls-1{fill:#4cbfdd;fill-rule:evenodd;}</style></defs><title>Fichier 1</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M1.46,3.43H.08C0,3.43,0,3.42,0,3.36V1.42a.09.09,0,0,1,0-.06L.59.81,1.24.19,1.41,0a.07.07,0,0,1,.11,0l.6.58.51.5.28.26a.08.08,0,0,1,0,.07V3.35c0,.06,0,.08-.08.08Zm0-3.28h0L1,.57l-.89.85s0,0,0,0V3.28s0,0,0,0H2.8V1.47s0,0,0,0l-.34-.32L2.07.74,1.67.35Z"/></g></g></svg>
     <h3 class="connect"> Connecter vous à votre espace</h3>
 
     <form action="verification.php" method="POST">
     <input  type="text" placeholder="Email" name="email" class="email" required>
     <input type="password" placeholder="Mot de passe" name="password" class="password" required>
     </form> 
-    <div class="button__holder">
-        <button class="plus"></button>
+
+    <div class="col-12 boutonfleche">
+    <svg class="test" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.75 4.75"><defs><style>.cls-1,.cls-3{fill:#fff;}.cls-2{fill:#4cbfdd;opacity:0.6;}.cls-3{stroke:#4cbfdd;stroke-miterlimit:10;stroke-width:0.1px;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M3.9,2.38A1.53,1.53,0,1,1,2.38.85,1.52,1.52,0,0,1,3.9,2.38Z"/><circle class="cls-2" cx="2.38" cy="2.38" r="2.38"/><path class="cls-3" d="M2.6,1.65l.79.74-.79.74-.17-.22.41-.37s0,0-.06,0H1.36v-.3H2.81L2.4,1.88Z"/></g></g></svg>
     </div>
+
 </div>
 
 
