@@ -1,0 +1,33 @@
+/*resultat 1*/
+.container5{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+
+
+}
+.resultat{
+    margin-top: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.logo3{
+    margin-top: 30%;
+}
+
+.telechargement{
+    color:white;
+    font-size: 15px;
+    text-align: center;
+}
+.texte{
+  color: #daddd9;
+  font-size: 15px;
+  margin-left: 9%;
+  margin-top: 10%;
+  font-family:  Helvetica, sans-serif;
+  font-style:italic ;
+  font-weight: normal;
+
+}
