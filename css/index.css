@@ -10,7 +10,7 @@
 
 body {
     height: 500px;
-    background-color: #4cbedd;
+    background-color: #4cbfdd;
 }
 
 h1,
@@ -87,9 +87,14 @@ a {
 }
 
 .partenaire2{
-    height: 25%;
+    height: 30%;
+}
+
+.partenaire3{
+    width: 15%;
 }
 
 .partenaire4 {
+    width: 15%;
     margin-right: 5px;
 }

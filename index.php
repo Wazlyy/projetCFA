@@ -25,8 +25,8 @@
     <footer class="partenaires">
         <img class="partenaire1" src="img/logo-simplon.png" />
         <img class="partenaire2" src="img/banque_de_france_logo.png" />
-        <img class="partenaire3" src="img/cfailogo.png" />
-        <img class="partenaire4" src="img/eole.jpg" />
+        <img class="partenaire3" src="img/cma-logo-fondrouge.png" />
+        <img class="partenaire4" src="img/logo-eole-Grand-Narbonne.jpeg" />
     </footer>
 
     <script src=""></script>
