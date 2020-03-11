@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CFA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/resultat1.css">
+    <link rel="stylesheet" type="text/css" href="../css/resultat1.css">
     
 
 </head>
@@ -20,9 +20,15 @@
 
    
 </div>
+<div class="boutonfleche1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.06 2.06"><defs><style>.cls-1{fill:#4cbfdd;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M2.06,1A1,1,0,1,1,1,0,1,1,0,0,1,2.06,1Z"/><path class="cls-2" d="M1.17,1.07.61.51h.57l.53.53,0,0a.12.12,0,0,0-.05.05l-.5.49H.62Z"/></g></g></svg>
+    </div>
 
 
 
-
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="js/atelier.js" type="text/javascript"></script>
 </body>
 </html>
