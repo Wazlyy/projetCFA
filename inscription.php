@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<div class="container3">
+<div class="container-fluid container3">
     <h3 class="newCompte">Nouveau Compte</h3>
     <img class="" src="img/piecejointe.png" width="100px">
     <h3 class="telechargement"> Télécharger une photo de profil</h3>

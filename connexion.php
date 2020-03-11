@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<div class="container2">
+<div class="container-fluid">
     <h3 class="demarrer">Démarrer</h3>
     <img class="home" src="img/homelogo.png" width="100px">
     <h3 class="connect"> Connecter vous à votre espace</h3>
