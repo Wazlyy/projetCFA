@@ -1,120 +1,76 @@
-body{
-    background-color:#979996;
-    
+body {
+  background-color: #979996;
+
 }
 
-.arrow{
+input{
+  text-align: center;
+  margin-left: 25%;
+}
+
+.arrow2{
+  width: 25%;
+  margin-left: 38%;
+}
+
+.arrow {
   width: 5%;
 }
 
-.billet{
+
+.billet {
   width: 50%;
   margin-left: 25%;
 }
 
-.container4{
-    display: flex;
-    align-items: center; 
-    flex-direction: column;
+.container4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*Atelier 1 et rencontre avec entreprise*/
-.atelier1{
-    margin-top: 10%;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    font-family:  Helvetica, sans-serif;
+.atelier1 {
+  margin-bottom: 5%;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
 }
-/*Fin/*
+/*fin*/
+
 
 /*A quel entrepreneur vous identifiez vous
         le plus ? Classer par ordre de
         préférence.*/
-.ordre{
-    color:rgb(238, 238, 238);
-    font-size: 15px;
-    text-align: center;
-    font-family:  Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: normal;
+.ordre {
+  margin-top: 5%;
+  color: rgb(238, 238, 238);
+  font-size: 15px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
 
 }
+
 /*Fin*/
 
 
-.rep_atelier4{
+.rep_atelier4 {
   color: white;
+  font-size: 20px;
 }
-.score{
+
+
+.score {
   margin-top: 20px;
-border: 3px solid
-#4CBEDD;
-border-radius: 20px;
-width: 50%;
-font-size: 20px;
-height: 40px;
+  border: 3px solid #4CBEDD;
+  border-radius: 20px;
+  width: 50%;
+  font-size: 20px;
+  height: 40px;
 }
 
-/*Bouton suivant*/
-.button__holder {
-    position: relative;
-    width: 100%;
-      margin-top: 50px;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  /*  background-color: #1a1a1a;*/
-  }
-  .button__holder:after {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  
-  /*  background: rgba(26, 26, 26, 0.7);*/
-  }
-  .button__holder  {
-    margin-right: 1em;
-    text-align: center;
-    color: rgb(59, 93, 138);
-  }
-  
-  .plus {
-    position: relative;
-    z-index: 1;
-    width: 80px;
-    height: 80px;
-    color: #1a1a1a;
-    background: #4CBEDD;
-    border-radius: 50%;
-    border: none;
-    -webkit-transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
-    transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
-    transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
-    transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
-  }
-  .plus:after {
-    content: "->";
-    font-size: 2.5em;
-    line-height: 1.1em;
-  }
-  .plus:hover {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    box-shadow: 0 0 1px 15px rgba(59, 102, 138, 0.4), 0 0 1px 30px rgba(59, 109, 138, 0.1), 0 0 1px 45px rgba(59, 91, 138, 0.1);
-  }
-  /*Fin/*
 
+/*Fin/*
