@@ -1,15 +1,20 @@
 /*Atelier 2*/
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*Toute la page*/
 .ctnr_at2 {
-    background-color: red;
+    background-color: #979996;
     width: 100%;
     height: 812px;
   }
   
   /*Zone flèche retour*/
   .zone_retour {
-    background-color: royalblue;
+    /*background-color: royalblue;*/
     width: 100%;
     height: 30px;
     margin: 15px 0 0 0;
@@ -21,13 +26,14 @@
   
   /*Zone Titre H1 + img boussole + instruction*/
   .zone_titre_at2 {
-    background-color: black;
+    /*background-color: black;*/
     width: 100%;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
   }
   
   .titre1_at2 {
@@ -41,6 +47,11 @@
   .img_boussole_at2 {
     margin-bottom: 50px;
   }
+
+  .img_boussole_at2 path
+  {
+    fill: #4CBEDD;
+  }
   
   .instruction_at2 {
     color: grey;
@@ -51,9 +62,12 @@
   
   /*Zone 1er slider + texte*/
   .zone_slider1_at2 {
-    background-color: grey;
+    /*background-color: grey;*/
     width: 100%;
-    height: 200px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .txt_slider1_at2 {
@@ -64,4 +78,56 @@
 
 
 /* ! L'implémentation du slider commence ici*/
+
+
+/* Zone pagination */
+
+.zone_pagination_at2 
+{
+  /*background-color: blueviolet;*/
+  width: 100%;
+  height: 132px;
+  
+}
+
+.zone_pag_at2
+{
+  /*background-color: chocolate;*/
+  height: 132px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page1
+{
+  background-color:#4CBEDD;
+  border: none;
+  border-radius: 30px;
+  width: 100px;
+  height: 25px;
+}
+
+.page2
+{
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 100px;
+  height: 25px;
+}
+
+.zone_btn_at2
+{
+  /*background-color: darkcyan;*/
+  height: 132px;
+  display: flex;
+  justify-content: content;
+}
+
+.bouton_next_at2
+{
+  width: 60px;
+}
 
