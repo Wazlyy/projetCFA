@@ -17,7 +17,7 @@
     /*background-color: royalblue;*/
     width: 100%;
     height: 30px;
-    margin: 15px 0 0 0;
+    margin: 15px 0 15px 0;
   }
   
   .fleche_retour {
@@ -46,6 +46,7 @@
   
   .img_boussole_at2 {
     margin-bottom: 50px;
+    width: 175px;
   }
 
   .img_boussole_at2 path
@@ -54,7 +55,7 @@
   }
   
   .instruction_at2 {
-    color: grey;
+    color: #D3D3D3;
     font-style: italic;
     font-size: 1.2em;
     text-align: center;
@@ -100,13 +101,22 @@
   align-items: center;
 }
 
+.pagination_at2
+{
+  /*background-color: bisque;*/
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .page1
 {
   background-color:#4CBEDD;
   border: none;
   border-radius: 30px;
-  width: 100px;
-  height: 25px;
+  width: 60px;
+  height: 15px;
 }
 
 .page2
@@ -114,8 +124,8 @@
   background-color: #fff;
   border: none;
   border-radius: 30px;
-  width: 100px;
-  height: 25px;
+  width: 60px;
+  height: 15px;
 }
 
 .zone_btn_at2
