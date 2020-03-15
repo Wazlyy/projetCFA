@@ -27,24 +27,30 @@
                 <div class="col-12 zone_slider1_at2">
                     
                     <h2 class="txt_slider1_at2">Vous avez été plutôt organisé(e)</h2>
+                    <!-- Slider à introduire ici -->
                     
                 </div>
 
-                <div class="container-fluid zone_pagination_at2">
-                    <div class="row">
-                        <div class="col-9 zone_pag_at2">
-                            <div class="pagination_at2">
-                                <div class="page1"></div>
-                                <div class="page2"></div>
-                            </div>
-                        </div>
-                        <div class="col-3 zone_btn_at2">
-                            <svg class="bouton_next_at2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.06 2.06"><defs><style>.cls-1{fill:#4cbfdd;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M2.06,1A1,1,0,1,1,1,0,1,1,0,0,1,2.06,1Z"/><path class="cls-2" d="M1.17,1.07.61.51h.57l.53.53,0,0a.12.12,0,0,0-.05.05l-.5.49H.62Z"/></g></g></svg>
-                        </div>
+                <div class="col-12 zone_slider2_at2">
+                    <h2>Un manager :</h2>
+                    <div class="col-12 multislider_at2">
+                        <p>- Est un leader :</p>
+                        <!-- Slider ici -->
+
+                        <p>- Fait des choix :</p>
+                        <!-- Slider ici -->
+
+                        <p>- Accepte de se tromper :</p>
+                        <!-- Slider ici -->
+
+                        <p>- Agit toujours :</p>
+                        <!-- Slider ici -->
                     </div>
-                    
                 </div>
 
+                <div class="col-12 zone_button_next">
+                    <svg class="button_next_at2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.06 2.06"><defs><style>.cls-1{fill:#4cbfdd;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M2.06,1A1,1,0,1,1,1,0,1,1,0,0,1,2.06,1Z"/><path class="cls-2" d="M1.17,1.07.61.51h.57l.53.53,0,0a.12.12,0,0,0-.05.05l-.5.49H.62Z"/></g></g></svg>
+                </div>
             </div>
         </section>
         

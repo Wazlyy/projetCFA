@@ -1,21 +1,30 @@
-/*Atelier 2*/
+/* TODO : Activer les liens retour/suivant */
+/* TODO : Implémenter les slider */
+/* TODO : Vérifier les dimensions des boxs ( !! Avec le justify-content l.104 cela peut prendre une forme différente de celle souhaité sur les maquettes ) 
+/* TODO : Une fois les sliders implémenter il suffira d'adapter la hauteur ligne 12 pour que la div du bouton soit en bas page */ 
+/* ? Décommenter les background-color pour afficher les boxs */
+
+
+/*? Atelier 2*/
 
 * {
-  margin: 0;
+  margin : 0;
   padding: 0;
 }
 
-/*Toute la page*/
+/*? Toute la page*/
+
 .ctnr_at2 {
     background-color: #979996;
-    width: 100%;
-    height: 812px;
+    width           : 100%;
+    height          : 1595px;
   }
   
-  /*Zone flèche retour*/
+  /*? Zone flèche retour*/
+
   .zone_retour {
     /*background-color: royalblue;*/
-    width: 100%;
+    width : 100%;
     height: 30px;
     margin: 15px 0 15px 0;
   }
@@ -24,29 +33,30 @@
     margin-left: 15px;
   }
   
-  /*Zone Titre H1 + img boussole + instruction*/
+  /*? Zone Titre H1 + img boussole + instruction*/
+
   .zone_titre_at2 {
     /*background-color: black;*/
-    width: 100%;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
+    width          : 100%;
+    height         : 450px;
+    display        : flex;
+    flex-direction : column;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 25px;
+    align-items    : center;
+    margin-bottom  : 25px;
   }
   
   .titre1_at2 {
-    text-align: center;
-    color: white;
-    font-size: 1.73em;
-    font-weight: bold;
+    text-align   : center;
+    color        : white;
+    font-size    : 1.73em;
+    font-weight  : bold;
     margin-bottom: 50px;
   }
   
   .img_boussole_at2 {
     margin-bottom: 50px;
-    width: 175px;
+    width        : 175px;
   }
 
   .img_boussole_at2 path
@@ -55,94 +65,75 @@
   }
   
   .instruction_at2 {
-    color: #D3D3D3;
+    color     : #D3D3D3;
     font-style: italic;
-    font-size: 1.2em;
+    font-size : 1.2em;
     text-align: center;
   }
   
-  /*Zone 1er slider + texte*/
+  /*? Zone 1er slider + texte*/
+
   .zone_slider1_at2 {
     /*background-color: grey;*/
-    width: 100%;
-    height: 160px;
-    display: flex;
+    width         : 100%;
+    height        : 160px;
+    display       : flex;
     flex-direction: column;
-    align-items: center;
+    align-items   : center;
   }
   
   .txt_slider1_at2 {
-    color: white;
+    color      : white;
     font-weight: bold ;
-    font-size: 1.3em;
+    font-size  : 1.3em;
   }
 
+  /* ! L'implémentation du slider commence ici*/
 
-/* ! L'implémentation du slider commence ici*/
+  /*? Zone multi-slider */
 
+  .zone_slider2_at2 {
+    /*background-color: blue;*/
+    width : 100%;
+    height: 850px;
+  }
 
-/* Zone pagination */
-
-.zone_pagination_at2 
-{
-  /*background-color: blueviolet;*/
-  width: 100%;
-  height: 132px;
-  
+.zone_slider2_at2 h2 {
+  font-weight  : bold;
+  font-size    : 1.3em;
+  text-align   : center;
+  margin-bottom: 50px;
+  color        : white;
 }
 
-.zone_pag_at2
-{
-  /*background-color: chocolate;*/
-  height: 132px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.pagination_at2
-{
-  /*background-color: bisque;*/
-  width: 60%;
-  display: flex;
-  flex-direction: row;
+.multislider_at2 {
+  /*background-color: brown;*/
+  width          : 100%;
+  height         : 750px;
+  display        : flex;
+  flex-direction : column;
   justify-content: space-between;
 }
 
-.page1
-{
-  background-color:#4CBEDD;
-  border: none;
-  border-radius: 30px;
-  width: 60px;
-  height: 15px;
+.zone_slider2_at2 p {
+  font-weight: bold;
+  font-size  : 1.2em;
+  color      : white;
 }
 
-.page2
-{
-  background-color: #fff;
-  border: none;
-  border-radius: 30px;
-  width: 60px;
-  height: 15px;
+/* ! L'implémentation des sliders commence ici*/
+
+
+/*? Zone button next page */
+
+.zone_button_next {
+  /*background-color: brown;*/
+  width          : 100%;
+  display        : flex;
+  flex-direction : row;
+  justify-content: flex-end;
 }
 
-.zone_btn_at2
-{
-  /*background-color: darkcyan;*/
-  height: 132px;
-  display: flex;
-  justify-content: content;
+.button_next_at2 {
+  width: 50px;
 }
-
-.bouton_next_at2
-{
-  width: 60px;
-}
-
-/* TODO : Activer les liens retour/suivant */
-/* TODO : Implémenter le slider */
-/* TODO : Responsive design */ 
-
-
