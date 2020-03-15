@@ -1,0 +1,108 @@
+/* TODO : Implémenter les 3 sliders */
+/* TODO : Vérifier les dimensions des box après l'implémentation */
+
+
+/*? Atelier 3*/
+
+* {
+    margin : 0;
+    padding: 0;
+  }
+  
+  /*? Toute la page*/
+  
+  .ctnr_at3 {
+      background-color: #979996;
+      width           : 100%;
+    }
+    
+    /*? Zone flèche retour*/
+  
+    .zone_retour {
+      /*background-color: royalblue;*/
+      width : 100%;
+      height: 30px;
+      margin: 15px 0 35px 0;
+    }
+    
+    .fleche_retour {
+      margin-left: 15px;
+    }
+    
+    /*? Zone Titre H1 + img avion + instruction*/
+  
+    .zone_titre_at3 {
+      /*background-color: chocolate;*/
+      width         : 100%;
+      height        : 315px;
+      display       : flex;
+      flex-direction: column;
+      align-items   : center;
+      margin-bottom : 25px;
+    }
+    
+    .titre1_at3 {
+      text-align   : center;
+      color        : white;
+      font-size    : 1.65em;
+      font-weight  : bold;
+      margin-bottom: 50px;
+    }
+
+    .img_at3 {
+        width        : 150px;
+        margin-bottom: 35px;
+        
+    }
+
+    .instruction_at3 {
+        color     : #D3D3D3;
+        font-style: italic;
+        font-size : 1.2em;
+        text-align: center;
+    }
+
+    /*? Zone multislider */
+
+    .zone_slider_at3 {
+        /*background-color: blue;*/
+        width : 100%;
+        height: 850px;
+      }
+    
+    .zone_slider_at3 h2 {
+      font-weight  : bold;
+      font-size    : 1.3em;
+      text-align   : center;
+      margin-bottom: 50px;
+      color        : white;
+    }
+    
+    .multislider_at3 {
+      /*background-color: brown;*/
+      width           : 100%;
+      height          : 550px;
+      display         : flex;
+      flex-direction  : column;
+      justify-content : space-between;
+    }
+    
+    .zone_slider_at3 p {
+      font-weight: bold;
+      font-size  : 1.2em;
+      color      : white;
+    }
+
+    /*? Zone button next */
+
+    .zone_button_next {
+       /* background-color: cornflowerblue;*/
+        width           : 100%;
+        display         : flex;
+        flex-direction  : row;
+        justify-content : center;
+    }
+
+    .button_next_at3 {
+        width: 50px;
+    }
