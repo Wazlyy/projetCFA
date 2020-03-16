@@ -124,7 +124,65 @@
 /* ! L'implémentation des sliders commence ici*/
 
 
-/*? Zone button next page */
+/*? Zone pagination et button next page */
+
+.zone_pagination_at2 
+{
+  /*background-color: blueviolet;*/
+  width: 100%;
+  height: 132px;
+  
+}
+
+.zone_pag_at2
+{
+  /*background-color: chocolate;*/
+  height: 132px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagination_at2
+{
+  /*background-color: bisque;*/
+  width: 50%;
+  display: flex;
+ 
+  justify-content: space-around;
+}
+
+.page1
+{
+  background-color:#4CBEDD;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
+}
+
+.page2
+{
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
+}
+
+
+.zone_btn_at2
+{
+  /*background-color: darkcyan;*/
+ 
+  flex-direction: row;
+  display: flex;
+  justify-content: content;
+flex-direction: center;
+  
+  
+}
 
 .zone_button_next {
   /*background-color: brown;*/
