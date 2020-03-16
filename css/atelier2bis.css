@@ -1,10 +1,3 @@
-/* TODO : Activer les liens retour/suivant */
-/* TODO : Implémenter les slider */
-/* TODO : Vérifier les dimensions des boxs ( !! Avec le justify-content l.104 cela peut prendre une forme différente de celle souhaité sur les maquettes ) 
-/* TODO : Une fois les sliders implémenter il suffira d'adapter la hauteur ligne 12 pour que la div du bouton soit en bas page */ 
-/* ? Décommenter les background-color pour afficher les boxs */
-
-
 /*? Atelier 2*/
 
 * {
@@ -26,7 +19,7 @@
     /*background-color: royalblue;*/
     width : 100%;
     height: 30px;
-    margin: 15px 0 ;
+    margin: 15px 0 15px 0;
   }
   
   .fleche_retour {
@@ -38,25 +31,29 @@
   .zone_titre_at2 {
     /*background-color: black;*/
     width          : 100%;
-    height         : 450px;
+    height         : 200px;
     display        : flex;
     flex-direction : column;
     justify-content: center;
     align-items    : center;
-   
+    
   }
   
   .titre1_at2 {
     text-align   : center;
     color        : white;
-    font-size    : 20px;
+    font-size    : 1.73em;
     font-weight  : bold;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   
   .img_boussole_at2 {
-    margin-bottom: 50px;
-    width        : 150px;
+    display: flex;
+    flex-direction : column;
+    justify-content: right;
+    align-items    : right;
+    margin-bottom: 30px;
+    width        : 175px;
   }
 
   .img_boussole_at2 path
