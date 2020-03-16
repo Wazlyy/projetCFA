@@ -15,8 +15,10 @@
             <div class="row">
                 
                 <div class="col-12 zone_retour">
+                <a href="atelier2bis.php">
                     <img class="fleche_retour" src="img/icon-gauche.png" alt="fleche_retour" />
                 </div>
+                </a>
 
                 <div class="col-12 zone_titre_at3">
                     <h1 class="titre1_at3">Atelier 3 : Aller plus loin...</h1>
@@ -41,7 +43,9 @@
                 
 
                 <div class="col-12 zone_button_next">
+                <a href="atelier4.php">
                     <svg class="button_next_at3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.06 2.06"><defs><style>.cls-1{fill:#4cbfdd;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M2.06,1A1,1,0,1,1,1,0,1,1,0,0,1,2.06,1Z"/><path class="cls-2" d="M1.17,1.07.61.51h.57l.53.53,0,0a.12.12,0,0,0-.05.05l-.5.49H.62Z"/></g></g></svg>
+</a>
                 </div>
             </div>
         </section>
