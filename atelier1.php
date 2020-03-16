@@ -10,8 +10,15 @@
     
 <body>
 <div class="container4">
+<div class="col-12 zone_retour">
+                <a href="connexion.php">
+        
+            
+        <img class="fleche_retour" src="img/icon-gauche.png" alt="fleche_retour" />
+                </div>
+                </a>
     <h3 class="atelier1">Atelier1<br>Rencontre avec des entrepreneurs</h3>
-    <img class="logo2" src="img/logo2.png" width="150px">
+    <img class="logo2" src="img/logo2.png" width="140px">
     <h3 class="ordre">A quel entrepreneur vous identifiez vous
         le plus ? Classer par ordre de<br>
         préférence.</h3>

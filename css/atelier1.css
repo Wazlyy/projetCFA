@@ -8,10 +8,21 @@ body{
     align-items   : center;
     flex-direction: column;
 }
+/*? Zone flèche retour*/
 
+.zone_retour {
+  /*background-color: royalblue;*/
+  width : 100%;
+  height: 10px;
+  margin: 5px 0 ;
+}
+
+.fleche_retour {
+  margin-left: 15px;
+}
 /*Atelier 1 et rencontre avec entreprise*/
 .atelier1 {
-    margin-top : 10%;
+    
     color      : white;
     font-size  : 15px;
     text-align : center;
@@ -106,5 +117,5 @@ font-weight  : bold;
 
 .boutonfleche1{
  width: 60px;
- margin-top: 40px;
+ margin-top: 20px;
 }
