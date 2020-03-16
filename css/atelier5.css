@@ -1,0 +1,91 @@
+*{
+    font-family: "Saiyan Sans";
+    src: url('/font/Saiyan-Sans.ttf')
+}
+
+body {
+    background-color: #979996;
+    margin: 0;
+    padding: 0;
+  }
+.row{
+    margin: 0;
+}
+  #center{
+      margin-top: 20px ;
+      display: flex;
+      justify-content: center;
+
+  }
+
+#center2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#center3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#center4{
+    color: #e8e9ea;
+  padding: 0;
+   justify-content: center;
+   margin-top: 40px; 
+}
+
+#center6{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.phrase{
+    font-style: italic;
+    color: #d1d3d5;
+    text-align: center;
+}
+  .swag{
+      font-size: 1.5em;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+  }
+
+  .svg{
+      width: 50%;
+      height: auto;
+  }
+
+  .inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+ border: 2px solid #35c3e2;
+ border-radius: 80px;
+ width: auto;
+ margin-right: 10px;
+ margin-left: 10px;
+   
+}
+
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+#taille{
+    width: 60px;
+}
+
+#taille2{
+    width: 25px;
+    margin-top: 20px;
+}
