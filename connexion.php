@@ -22,8 +22,9 @@
     <input type="password" placeholder="Mot de passe" name="password" class="password" required>
     </form> 
     <div class="boutonfleche1">
-        <a href="atelier2.php">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.06 2.06"><defs><style>.cls-1{fill:#4cbfdd;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M2.06,1A1,1,0,1,1,1,0,1,1,0,0,1,2.06,1Z"/><path class="cls-2" d="M1.17,1.07.61.51h.57l.53.53,0,0a.12.12,0,0,0-.05.05l-.5.49H.62Z"/></g></g></svg>
+        <a href="atelier1.php">
+        <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.75 4.75"><defs><style>.cls-100,.cls-300{fill:#fff;}.cls-200{fill:#4cbfdd;opacity:0.6;}.cls-300{stroke:#4cbfdd;stroke-miterlimit:10;stroke-width:0.1px;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-100" d="M3.9,2.38A1.53,1.53,0,1,1,2.38.85,1.52,1.52,0,0,1,3.9,2.38Z"/><circle class="cls-200" cx="2.38" cy="2.38" r="2.38"/><path class="cls-300" d="M2.6,1.65l.79.74-.79.74-.17-.22.41-.37s0,0-.06,0H1.36v-.3H2.81L2.4,1.88Z"/></g></g></svg>
+
 </a>
 </div>
 </div>
