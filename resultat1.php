@@ -21,12 +21,20 @@
     <h3 class="texte"> Le savais-tu? <br><br> Tu es un véritable entrepreneur. <br><br> Tu es: participatif, délégatif, directif, un leader.
 <br><br>Tu fais des choix et acceptes de te tromper.</h3>
 
-   
-</div>
-<div class="boutonfleche1">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.06 2.06"><defs><style>.cls-1{fill:#4cbfdd;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M2.06,1A1,1,0,1,1,1,0,1,1,0,0,1,2.06,1Z"/><path class="cls-2" d="M1.17,1.07.61.51h.57l.53.53,0,0a.12.12,0,0,0-.05.05l-.5.49H.62Z"/></g></g></svg>
-    </div>
+<div class="container-fluid zone_pagination_at2">
+                    <div class="row">
+                        <div class="col-9 zone_pag_at2">
+                            <div class="pagination_at2">
+                                <div class="page1"></div>
+                                <div class="page2"></div>
+                                <div class="page3"></div>
+                            </div>
+                        </div>
+                        <div class="col-3 zone_btn_at2">
+                            <svg class="bouton_next_at2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.06 2.06"><defs><style>.cls-1{fill:#4cbfdd;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M2.06,1A1,1,0,1,1,1,0,1,1,0,0,1,2.06,1Z"/><path class="cls-2" d="M1.17,1.07.61.51h.57l.53.53,0,0a.12.12,0,0,0-.05.05l-.5.49H.62Z"/></g></g></svg>
+                        </div>
 
+                    </div>
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
