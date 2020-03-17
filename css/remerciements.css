@@ -1,0 +1,51 @@
+* {
+    margin : 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #b6d7fd;
+  }
+  .container-fluid{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .logo_declic{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 180px;
+      
+  }
+.remerciements{
+    font-size: 20px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.partenaires {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.partenaire1{
+    width: 15%;
+}
+
+.partenaire2{
+    height: 30%;
+}
+
+.partenaire3{
+    width: 15%;
+}
+
+.partenaire4 {
+    width: 15%;
+    margin-right: 5px;
+}
