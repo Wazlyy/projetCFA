@@ -10,6 +10,16 @@ body {
 input {
   margin-left: 5%;
   text-align: center;
+  font-style: italic;
+}
+
+button {
+  background-color: inherit;
+  visibility: hidden;
+}
+
+svg {
+  visibility: visible;
 }
 
 .inputfile {
@@ -47,7 +57,7 @@ input {
 .newCompte {
   margin-top: 10%;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .home {

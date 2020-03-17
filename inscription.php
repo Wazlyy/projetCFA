@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -47,14 +48,13 @@
         </label>
 
         <form action="verification.php" method="POST">
-
             <input type="text" placeholder="Nom" name="nominsc" class="nominsc" required>
             <input type="text" placeholder="Prénom" name="prenominsc" class="prenominsc" required>
             <input type="text" placeholder="Email" name="emailinsc" class="emailinsc" required>
             <input type="password" placeholder="Mot de passe" name="passwordinsc" class="passwordinsc" required>
         </form>
 
-        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.75 4.75">
+       <a href="connexion.php"><button type="submit"><svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.75 4.75">
             <defs>
                 <style>
                     .cls-100,
@@ -74,7 +74,7 @@
                     }
                 </style>
             </defs>
-            <title>Fichier 2</title>
+            <title></title>
             <g id="Calque_2" data-name="Calque 2">
                 <g id="Calque_1-2" data-name="Calque 1">
                     <path class="cls-100" d="M3.9,2.38A1.53,1.53,0,1,1,2.38.85,1.52,1.52,0,0,1,3.9,2.38Z" />
@@ -83,7 +83,7 @@
                         d="M2.6,1.65l.79.74-.79.74-.17-.22.41-.37s0,0-.06,0H1.36v-.3H2.81L2.4,1.88Z" />
                 </g>
             </g>
-        </svg>
+        </svg></button></a>
 
     </div>
 

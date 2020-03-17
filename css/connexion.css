@@ -1,19 +1,23 @@
-body{
-  background-color:#979996;
-  
+body {
+  background-color: #979996;
 }
-{margin:0px;
-  padding:0px
 
+* {
+  margin: 0px;
+  padding: 0px
 }
-.container-fluid{
+
+input {
+  text-align: center;
+}
+
+.container-fluid {
   display: flex;
-  align-items: center; 
+  align-items: center;
   flex-direction: column;
-
-
 }
-.demarrer{
+
+.demarrer {
   margin-top: 10%;
   color: white;
   font-size: 25px;
@@ -21,43 +25,44 @@ body{
   font-weight: bold;
 }
 
-.home{
+.home {
   margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-width: 60px;
+  width: 60px;
 }
 
-.connect{
+.connect {
   margin-top: 40px;
-  color:white;
+  color: white;
   font-size: 20px;
   text-align: center;
   font-weight: bold;
 }
 
-.email{
+.email {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 20px;
-  border:2px solid #4CBEDD;
+  border: 2px solid #4CBEDD;
   border-radius: 25px;
-  width:100% ;
+  width: 100%;
   font-weight: normal;
   font-style: italic;
   color: aliceblue;
   font-size: 20px;
   height: 50px;
   background-color: transparent;
-  text-align:2em ;
+  text-align: 2em;
 }
-.password{ 
+
+.password {
   margin-top: 20px;
-  border:2px solid #4CBEDD;
+  border: 2px solid #4CBEDD;
   border-radius: 25px;
-  width:100% ;
+  width: 100%;
   font-size: 20px;
   height: 50px;
   background-color: transparent;
@@ -66,10 +71,10 @@ width: 60px;
   color: aliceblue;
 }
 
-.boutonfleche1{
+.boutonfleche1 {
   display: flex;
   align-items: center;
   flex-direction: center;
   width: 80px;
   margin-top: 100px;
- }
+}
