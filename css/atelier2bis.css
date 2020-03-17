@@ -10,7 +10,7 @@
 .ctnr_at2 {
     background-color: #979996;
     width           : 100%;
-    height          : 1595px;
+    height          : 735px;
   }
   
   /*? Zone flèche retour*/
@@ -19,7 +19,7 @@
     /*background-color: royalblue;*/
     width : 100%;
     height: 30px;
-    margin: 15px 0 15px 0;
+    margin-top: 15px;
   }
   
   .fleche_retour {
@@ -28,40 +28,26 @@
   
   /*? Zone Titre H1 + img boussole + instruction*/
 
-  .zone_titre_at2 {
+  .zone_boussole_at2bis {
     /*background-color: black;*/
     width          : 100%;
-    height         : 200px;
     display        : flex;
-    flex-direction : column;
-    justify-content: center;
-    align-items    : center;
+    justify-content: right;
+    align-items    : right;
     
   }
   
-  .titre1_at2 {
-    text-align   : center;
-    color        : white;
-    font-size    : 1.73em;
-    font-weight  : bold;
-    margin-bottom: 50px;
-  }
-  
   .img_boussole_at2 {
-    display: flex;
-    flex-direction : column;
-    justify-content: right;
-    align-items    : right;
-    margin-bottom: 30px;
-    width        : 175px;
+   
+    
+    width        : 80px;
   }
-
-  .img_boussole_at2 path
-  {
-    fill: #4CBEDD;
-  }
+.img_boussole_at2 path{
+  fill: #4CBEDD;
+}
   
-  .instruction_at2 {
+  
+  .zone_instruction_at2{
     color     : #D3D3D3;
     font-style: italic;
     font-size : 1.2em;
@@ -92,21 +78,21 @@
   .zone_slider2_at2 {
     /*background-color: blue;*/
     width : 100%;
-    height: 850px;
+    
   }
 
 .zone_slider2_at2 h2 {
   font-weight  : bold;
   font-size    : 1.3em;
-  text-align   : center;
-  margin-bottom: 50px;
+  margin-left: 20px;
+  
   color        : white;
 }
 
 .multislider_at2 {
   /*background-color: brown;*/
   width          : 100%;
-  height         : 750px;
+  
   display        : flex;
   flex-direction : column;
   justify-content: space-between;
@@ -133,4 +119,75 @@
 
 .button_next_at2 {
   width: 50px;
+}
+/*? Zone pagination et button next page */
+
+.zone_pagination_at2 
+{
+  /*background-color: blueviolet;*/
+  width: 100%;
+  height: 132px;
+  
+}
+
+.zone_pag_at2
+{
+  /*background-color: chocolate;*/
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagination_at2
+{
+  /*background-color: bisque;*/
+  width: 50%;
+  display: flex;
+ 
+  justify-content: space-around;
+}
+
+.page1
+{
+  background-color:#fff;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
+}
+
+.page2
+{
+  background-color: #4CBEDD;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
+}
+
+
+.zone_btn_at2
+{
+  /*background-color: darkcyan;*/
+ 
+  flex-direction: row;
+  display: flex;
+  justify-content: content;
+flex-direction: center;
+  
+  
+}
+
+.zone_button_next {
+  /*background-color: brown;*/
+  width          : 100%;
+  display        : flex;
+  flex-direction : row;
+  justify-content: flex-end;
+}
+
+.button_next_at2 {
+  width: 40px;
 }
