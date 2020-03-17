@@ -1,7 +1,12 @@
-body{
-    background-color:#979996;
-    
+body {
+  background-color: #979996;
 }
+
+* {
+  margin : 0;
+  padding: 0;
+}
+
 .container6{
     display: flex;
     align-items: right; 
@@ -9,7 +14,24 @@ body{
 
 
 }
-
+.res1{
+color: #fff;
+}
+.res2{
+  color: #fff;
+}
+.reponse1{
+  color: #fff;
+  font-size: 20px;
+}
+.reponse2{
+  color: #fff;
+  font-size: 20px;
+}
+.reponse3{
+  color: #fff;
+  font-size: 20px;
+}
 .resultat{
     margin-top: 10%;
     color: white;
@@ -17,6 +39,7 @@ body{
 }
 
 .flag{
+  width: 60px;
  display: flex;
  align-items: right;
  justify-content: right;
@@ -37,110 +60,176 @@ body{
   font-weight: normal;
 
 }
+.zone_pagination_at2 
+{
+  /*background-color: blueviolet;*/
+  width: 100%;
+  height: 132px;
+  
+}
+
+.zone_pag_at2
+{
+  /*background-color: chocolate;*/
+  height: 132px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagination_at2
+{
+  /*background-color: bisque;*/
+  width: 50%;
+  display: flex;
+ 
+  justify-content: space-around;
+}
+
+.page1
+{
+  background-color:#fff;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
+}
+
+.page2
+{
+  background-color: #4CBEDD;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
+}
+.page3
+{
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
+}
+
+.zone_btn_at2
+{
+  /*background-color: darkcyan;*/
+ 
+  flex-direction: row;
+  display: flex;
+  justify-content: content;
+flex-direction: center;
+  
+  
+}
+
+.bouton_next_at2
+{
+width: 40px;
+}
+/*Zonne curseur*/
 .slider{
-	background: url('../') -25px -25px;
-	height: 60px;
-	position: relative;
-    width: 100%;
-    justify-content: center;
-    display: flex;
+  margin-left: 10%;
 }
 
-.slider > .emptyprogress{
-	background: #97d9fb;
-	border: 3px solid white;
-	cursor: pointer;
-	border-radius: 10px;
-	height: 40%;
-	top:25%;
-	position: absolute;
-    width: 60%;
-    
-
-	-webkit-box-shadow: 1px 1px 3px 0px #ccc;
-	box-shadow: 1px 1px 3px 0px #ccc;
+#demo{
+  margin-left: 47%;
 }
 
-.slider > .progress{
-	background: #14aaf6;
-	border: 3px solid white;
-	cursor: pointer;
-	border-radius: 10px;
-	height: 40%;
-	top:25%;
-	position: absolute;
-	width: 0%;
 
-	-webkit-box-shadow: 1px 1px 3px 0px #ccc;
-	box-shadow: 1px 1px 3px 0px #ccc;
+.speaker{
+  margin-left: 5%;
+  position: absolute;
+  width: 10%;
 }
 
-.slider > .indicator{
-	background: url('../img/drapeau.png') repeat;
-	/*border: 1px solid red;*/
-	cursor: move;
-	height: 100%;
-	margin: 8px auto auto -30px;
-	position: absolute;
-    width:60px;
-    display: flex;
+
+input[type="range"] {
+  -webkit-appearance: none;
+  background: transparent;
+  width: 80%;
+  max-width: 200px;
+  outline: none;
 }
 
-.info, .info> label > input{
-	font-family: 'Julius Sans One', sans-serif;
-	color: grey;
+input[type="range"]:focus,
+input[type="range"]:active,
+input[type="range"]::-moz-focus-inner,
+input[type="range"]::-moz-focus-outer {
+  border: 0;
+  outline: none;
 }
 
-.info{
-	font-size: 32px;
-	font-weight: bold;
-	margin-top: 30px;
-	width: auto;
+input[type="range"]::-moz-range-thumb {
+  border: none;
+  height: 30px;
+  width: 50px;
+  background-color: transparent;
+  background-image: url("https://svgshare.com/i/J7J.svg");
+  background-position: 0 0;
+  background-size: 52px 50px;
+  cursor: pointer;
 }
 
-.info> label > input{
-	border: none;
-	font-size: 20px;
-	width: 250px;
+input[type="range"]::-moz-range-thumb:active {
+  background-position: 100% 0px;
 }
-/*==============================*/
-/* partie commune               */
-/*==============================*/
-input[type=range].custom-slider.custom-slider-bullet {
-    height: 2em;
-    color: #FFF;
-    background: transparent;
-    background-image: linear-gradient(to bottom, #FFF, #999, #FFF);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 25%;
-  }
-  /*==============================*/
-  /* le curseur                   */
-  /*==============================*/
-  input[type=range].custom-slider.custom-slider-bullet::-webkit-slider-thumb {
-    width: 2em;
-    padding: 0.25em;                                              /* largeur du bord */
-    border: 1px solid #888;
-    border-radius: 50%;
-    box-shadow: 0 0 .5em #FFF inset;
-    background-image: linear-gradient(#888, #FFF) content-box,          /* le centre */
-                linear-gradient(-90deg, #888, #DDD) border-box;   /* le bord */
-  }
-  input[type=range].custom-slider.custom-slider-bullet::-moz-range-thumb {
-    width: 2em;
-    padding: 0.25em;                                              /* largeur du bord */
-    border: 1px solid #888;
-    border-radius: 50%;
-    box-shadow: 0 0 .5em #FFF inset;
-    background: url('../img/drapeau.png')   /* le bord */
-  }
-  input[type=range].custom-slider.custom-slider-bullet::-ms-thumb {
-    width: 2em;
-    padding: 0.25em;                                              /* largeur du bord */
-    border: 1px solid #888;
-    border-radius: 50%;
-    box-shadow: 0 0 .5em #FFF inset;
-    background: url('../img/drapeau.png')   /* le bord */
-  }
 
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 20px;
+  background: #eee;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-progress {
+  height: 20px;
+  background: #4685d7;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  background-image: url("https://svgshare.com/i/J7J.svg");
+  background-position: 0 0;
+  background-size: 52px 50px;
+  cursor: pointer;
+  margin-top: -15px;
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  background-position: 100% 0px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 20px;
+  background: #eee;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+label {
+  background: #eee;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  padding: 1px;
+  font-family: Roboto, 'Helvetica Neue', Arial;
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+  color: #2968bb;
+  font-weight: bold;
+  content: '';
+}
