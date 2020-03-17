@@ -1,121 +1,118 @@
 /*Atelier 1*/
-body{
-  background-color:#979996;
-  
+body {
+  background-color: #979996;
 }
+
 .container4 {
-    display       : flex;
-    align-items   : center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
 /*? Zone flèche retour*/
 
 .zone_retour {
   /*background-color: royalblue;*/
-  width : 100%;
+  width: 100%;
   height: 10px;
-  margin: 5px 0 ;
+  margin: 5px 0;
 }
 
-.fleche_retour {
-  margin-left: 15px;
-}
+
 /*Atelier 1 et rencontre avec entreprise*/
 .atelier1 {
-    
-    color      : white;
-    font-size  : 15px;
-    text-align : center;
-    font-family: Helvetica, sans-serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
 }
+
 /*Fin/*
 
 /*A quel entrepreneur vous identifiez vous
         le plus ? Classer par ordre de
         préférence.*/
 .ordre {
-    color      : rgb(238, 238, 238);
-    font-size  : 15px;
-    text-align : center;
-    font-family: Helvetica, sans-serif;
-    font-style : italic;
-    font-weight: normal;
+  color: rgb(238, 238, 238);
+  font-size: 15px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
 }
 
 /*Fin*/
 
 /*Pour les 5 entreprises*/
 .entreprise1 {
-  margin-bottom   : 12px;
-  color           : white;
+  margin-bottom: 12px;
+  color: white;
   background-color: #4CBEDD;
-  border          : 3px solid
-#4CBEDD;
-border-radius: 20px;
-width        : 90%;
-font-size    : 15px;
-height       : 40px;
-font-family  : Helvetica, sans-serif;
-font-weight  : bold;
+  border: 3px solid #4CBEDD;
+  border-radius: 20px;
+  width: 90%;
+  font-size: 15px;
+  height: 40px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
+
 .entreprise2 {
-  margin-bottom   : 12px;
-  color           : white;
+  margin-bottom: 12px;
+  color: white;
   background-color: #4CBEDD;
-  border          : 3px solid
-#4CBEDD;
-border-radius: 20px;
-width        : 90%;
-font-size    : 15px;
-height       : 40px;
-font-family  : Helvetica, sans-serif;
-font-weight  : bold;
+  border: 3px solid #4CBEDD;
+  border-radius: 20px;
+  width: 90%;
+  font-size: 15px;
+  height: 40px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .entreprise3 {
-  margin-bottom   : 12px;
-  color           : white;
+  margin-bottom: 12px;
+  color: white;
   background-color: #4CBEDD;
-  border          : 3px solid
-#4CBEDD;
-border-radius: 20px;
-width        : 90%;
-font-size    : 15px;
-height       : 40px;
-font-family  : Helvetica, sans-serif;
-font-weight  : bold;
+  border: 3px solid #4CBEDD;
+  border-radius: 20px;
+  width: 90%;
+  font-size: 15px;
+  height: 40px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .entreprise4 {
-  margin-bottom   : 12px;
-  color           : white;
+  margin-bottom: 12px;
+  color: white;
   background-color: #4CBEDD;
-  border          : 3px solid
-#4CBEDD;
-border-radius: 20px;
-width        : 90%;
-font-size    : 15px;
-height       : 40px;
-font-family  : Helvetica, sans-serif;
-font-weight  : bold;
+  border: 3px solid #4CBEDD;
+  border-radius: 20px;
+  width: 90%;
+  font-size: 15px;
+  height: 40px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .entreprise5 {
-  margin-bottom   : 12px;
-  color           : white;
+  margin-bottom: 12px;
+  color: white;
   background-color: #4CBEDD;
-  border          : 3px solid#4CBEDD;
-  border-radius   : 20px;
-  width           : 90%;
-  height          : 40px;
-  font-family     : Helvetica, sans-serif;
-  font-weight     : bold;
+  border: 3px solid#4CBEDD;
+  border-radius: 20px;
+  width: 90%;
+  height: 40px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
+
 /*Fin boutons entreprise*/
 
 /*Bouton suivant*/
 
-.boutonfleche1{
- width: 60px;
- margin-top: 20px;
+.boutonfleche1 {
+  width: 60px;
+  margin-top: 20px;
 }

@@ -14,7 +14,11 @@
 </head>
 
 <body>
-    <div class="container-fluid container3">
+    <div class="container3">
+    <div class="col-12 zone_retour">
+            <a href="index.php">
+                <img class="fleche_retour" src="img/icon-gauche.png" alt="fleche_retour" /></a>
+        </div>
         <h3 class="newCompte">Nouveau Compte</h3>
         <input type="file" name="file" id="file" class="inputfile" />
         <label for="file"><svg class="paper_clip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.44 48.44">
@@ -54,7 +58,7 @@
             <input type="password" placeholder="Mot de passe" name="passwordinsc" class="passwordinsc" required>
         </form>
 
-       <a href="connexion.php"><button type="submit"><svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.75 4.75">
+       <a href="connexion.php"><svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.75 4.75">
             <defs>
                 <style>
                     .cls-100,
@@ -83,10 +87,9 @@
                         d="M2.6,1.65l.79.74-.79.74-.17-.22.41-.37s0,0-.06,0H1.36v-.3H2.81L2.4,1.88Z" />
                 </g>
             </g>
-        </svg></button></a>
+        </svg></a>
 
     </div>
 
 </body>
-
 </html>
