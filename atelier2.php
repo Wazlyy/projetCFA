@@ -13,14 +13,10 @@
 
         <section class="container-fluid ctnr_at2">
             <div class="row">
-                
             <div class="col-12 zone_retour">
                 <a href="atelier1.php">
-        
-            
                     <img class="fleche_retour" src="img/icon-gauche.png" alt="fleche_retour" />
-                </div>
-                </a>
+                </div></a>
 
                 <div class="col-12 zone_titre_at2">
                     <h1 class="titre1_at2">Atelier 2 : En route pour <br>Paris-Dakar et l'île déserte</h1>
@@ -33,32 +29,26 @@
                     <h2 class="txt_slider1_at2">Vous avez été plutôt organisé(e)</h2>
                     <!-- Slider à introduire ici -->
                     <div class="container-fluid slidecontainer">
-    <svg class="speaker" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.32 8.57"><defs><style>.cls-1{fill:#4cbfdd;fill-rule:evenodd;}</style></defs><title>Fichier 1</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M3.16,4.8V8.15c.08,0,.14,0,.19,0a.63.63,0,0,1,.19.21.3.3,0,0,1-.16.2,6.58,6.58,0,0,1-1.1,0c-.22,0-.3-.14-.35-.37-.16-.89-.29-1.78-.45-2.67a.53.53,0,0,0,0-.21A.49.49,0,0,1,.9,4.87a.05.05,0,0,0-.05,0,.49.49,0,0,1-.39-.56s0-.07,0-.12H.28c-.19,0-.25-.1-.28-.26S0,3.3,0,3s.08-.23.25-.23H.43s0,0,0,0c0-.53.23-.65.67-.65,1,0,1.92,0,2.88,0A6.6,6.6,0,0,0,7.93.58C8,.5,8.08.35,8.21.26A.39.39,0,0,1,8.45.11a.3.3,0,0,1,.16.24c0,.23,0,.5,0,.75V2.6a.59.59,0,0,0,.13.29.78.78,0,0,1,0,1.23.5.5,0,0,0-.16.29V6.57c0,.14,0,.27-.16.32s-.23-.07-.29-.18a.92.92,0,0,0-.24-.28A6.51,6.51,0,0,0,4.48,4.92c-.43-.06-.88-.06-1.32-.12"/><path class="cls-1" d="M12.64.19c-.05,0-.14,0-.18.06-.87.62-1.74,1.25-2.62,1.86-.05.05-.16,0-.25,0s.05-.16.12-.21L12.31.07c.1-.07.19-.15.33.12"/><path class="cls-1" d="M13.32,3.32c-.08.06-.11.13-.21.13-.51,0-1,0-1.54,0v.09H10a.3.3,0,0,1-.16,0,.11.11,0,0,1-.09-.07.18.18,0,0,1,.09-.14.3.3,0,0,1,.16,0c1,0,2,0,3.07,0a.42.42,0,0,1,.21.09"/><path class="cls-1" d="M12.05,6.76a.61.61,0,0,1-.19,0,1.48,1.48,0,0,1-.27-.19c-.66-.57-1.35-1.12-2-1.67a.19.19,0,0,1-.13-.1s0-.08,0-.14a.25.25,0,0,1,.16,0,3.1,3.1,0,0,1,.34.27c.65.54,1.33,1.08,2,1.61l.16.18a.24.24,0,0,0,0,.07"/></g></g></svg><input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
         <br>
-        <span id="demo"></span>
+        <span class="number" id="demo"></span>
     </div>
                 </div>
-
                 <div class="col-9 zone_pag_at2">
                             <div class="pagination_at2">
                                 <div class="page1"></div>
                                 <div class="page2"></div>
-                                
                             </div>
                         </div>
-
                 <div class="col-3 zone_button_next">
                 <a href="atelier2bis.php">
-                    <svg class="button_next_at2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.06 2.06"><defs><style>.cls-1{fill:#4cbfdd;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M2.06,1A1,1,0,1,1,1,0,1,1,0,0,1,2.06,1Z"/><path class="cls-2" d="M1.17,1.07.61.51h.57l.53.53,0,0a.12.12,0,0,0-.05.05l-.5.49H.62Z"/></g></g></svg>
-</a>
+                    <svg class="button_next_at2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.06 2.06"><defs><style>.cls-1{fill:#4cbfdd;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M2.06,1A1,1,0,1,1,1,0,1,1,0,0,1,2.06,1Z"/><path class="cls-2" d="M1.17,1.07.61.51h.57l.53.53,0,0a.12.12,0,0,0-.05.05l-.5.49H.62Z"/></g></g></svg></a>
                 </div>
             </div>
         </section>
+
         
-        
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="js/atelier2.js" type="text/javascript"></script>
     </body>
 </html>

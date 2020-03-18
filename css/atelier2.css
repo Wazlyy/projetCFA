@@ -1,125 +1,129 @@
 /* TODO : Activer les liens retour/suivant */
 /* TODO : Implémenter les slider */
 /* TODO : Vérifier les dimensions des boxs ( !! Avec le justify-content l.104 cela peut prendre une forme différente de celle souhaité sur les maquettes ) 
-/* TODO : Une fois les sliders implémenter il suffira d'adapter la hauteur ligne 12 pour que la div du bouton soit en bas page */ 
+/* TODO : Une fois les sliders implémenter il suffira d'adapter la hauteur ligne 12 pour que la div du bouton soit en bas page */
 /* ? Décommenter les background-color pour afficher les boxs */
-
+@font-face {
+  font-family: "Saiyan";
+  src: url("../font/Saiyan-Sans.ttf") format("truetype");
+}
 
 /*? Atelier 2*/
+body{
+  background-color: #979996;
+}
 
 * {
-  margin : 0;
+  margin: 0;
   padding: 0;
 }
 
+input{
+  display: flex;
+  justify-content: center;
+}
 /*? Toute la page*/
 
 .ctnr_at2 {
-    background-color: #979996;
-    width           : 100%;
-    height          : 810px;
-  }
-  
-  /*? Zone flèche retour*/
+  width: 100%;
+}
 
-  .zone_retour {
-    /*background-color: royalblue;*/
-    width : 100%;
-    height: 30px;
-    margin: 5px 0 ;
-  }
-  
-  .fleche_retour {
-    margin-left: 15px;
-  }
-  
-  /*? Zone Titre H1 + img boussole + instruction*/
+/*? Zone flèche retour*/
 
-  .zone_titre_at2 {
-    /*background-color: black;*/
-    width          : 100%;
-    text-align: center;
-    display        : flex;
-    flex-direction : column;
-    justify-content: center;
-    align-items    : center;
-   
-  }
-  
-  .titre1_at2 {
-    text-align   : center;
-    color        : white;
-    font-size    : 20px;
-    font-weight  : bold;
-    margin-bottom: 30px;
-  }
-  
-  .img_boussole_at2 {
-    margin-bottom: 30px;
-    width        : 140px;
-  }
+.zone_retour {
+  /*background-color: royalblue;*/
+  width: 100%;
+  height: 30px;
+  margin: 5px 0;
+}
 
-  .img_boussole_at2 path
-  {
-    fill: #4CBEDD;
-  }
-  
-  .instruction_at2 {
-    color     : #D3D3D3;
-    font-style: italic;
-    font-size : 1.1em;
-    text-align: center;
-  }
-  
-  /*? Zone 1er slider + texte*/
 
-  .zone_slider1_at2 {
-    /*background-color: grey;*/
-    width         : 100%;
-   margin-bottom: 70px;
-    display       : flex;
-    flex-direction: column;
-    align-items   : center;
-  }
-  
-  .txt_slider1_at2 {
-    color      : white;
-    font-weight: bold ;
-    font-size  : 1.2em;
-    margin-bottom: 40px;
-  }
+/*? Zone Titre H1 + img boussole + instruction*/
 
-  /* ! L'implémentation du slider commence ici*/
+.zone_titre_at2 {
+  /*background-color: black;*/
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  /*? Zone multi-slider */
+}
 
-  .zone_slider2_at2 {
-    /*background-color: blue;*/
-    width : 100%;
-    height: 850px;
-  }
+.titre1_at2 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.img_boussole_at2 {
+  margin-bottom: 30px;
+  width: 140px;
+}
+
+.img_boussole_at2 path {
+  fill: #4CBEDD;
+}
+
+.instruction_at2 {
+  color: #D3D3D3;
+  font-style: italic;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/*? Zone 1er slider + texte*/
+
+.zone_slider1_at2 {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt_slider1_at2 {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+/* ! L'implémentation du slider commence ici*/
+
+/*? Zone multi-slider */
+
+.zone_slider2_at2 {
+  /*background-color: blue;*/
+  width: 100%;
+  height: 850px;
+}
 
 .zone_slider2_at2 h2 {
-  font-weight  : bold;
-  font-size    : 1.3em;
-  text-align   : center;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
   margin-bottom: 50px;
-  color        : white;
+  color: white;
 }
 
 .multislider_at2 {
   /*background-color: brown;*/
-  width          : 100%;
-  height         : 750px;
-  display        : flex;
-  flex-direction : column;
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .zone_slider2_at2 p {
   font-weight: bold;
-  font-size  : 1.2em;
-  color      : white;
+  font-size: 1.2em;
+  color: white;
 }
 
 /* ! L'implémentation des sliders commence ici*/
@@ -127,44 +131,33 @@
 
 /*? Zone pagination et button next page */
 
-.zone_pagination_at2 
-{
-  /*background-color: blueviolet;*/
+.zone_pagination_at2 {
   width: 100%;
   height: 132px;
-  
 }
 
-.zone_pag_at2
-{
-  /*background-color: chocolate;*/
-  
+.zone_pag_at2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.pagination_at2
-{
-  /*background-color: bisque;*/
+.pagination_at2 {
   width: 50%;
   display: flex;
- 
   justify-content: space-around;
 }
 
-.page1
-{
-  background-color:#4CBEDD;
+.page1 {
+  background-color: #4CBEDD;
   border: none;
   border-radius: 30px;
   width: 40px;
   height: 10px;
 }
 
-.page2
-{
+.page2 {
   background-color: #fff;
   border: none;
   border-radius: 30px;
@@ -172,24 +165,17 @@
   height: 10px;
 }
 
-
-.zone_btn_at2
-{
-  /*background-color: darkcyan;*/
- 
+.zone_btn_at2 {
   flex-direction: row;
   display: flex;
   justify-content: content;
-flex-direction: center;
-  
-  
+  flex-direction: center;
 }
 
 .zone_button_next {
-  /*background-color: brown;*/
-  width          : 100%;
-  display        : flex;
-  flex-direction : row;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
 }
 
@@ -198,16 +184,16 @@ flex-direction: center;
 }
 
 /*Zonne curseur*/
-.slider{
+.slider {
   margin-left: 10%;
 }
 
-#demo{
+#demo {
   margin-left: 47%;
 }
 
 
-.speaker{
+.speaker {
   margin-left: 5%;
   position: absolute;
   width: 10%;
@@ -220,6 +206,7 @@ input[type="range"] {
   width: 80%;
   max-width: 200px;
   outline: none;
+  margin-right: 30px;
 }
 
 input[type="range"]:focus,
@@ -250,7 +237,7 @@ input[type="range"]::-moz-range-track {
   height: 20px;
   background: #eee;
   border-radius: 10px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
 
@@ -283,7 +270,7 @@ input[type="range"]::-webkit-slider-runnable-track {
   height: 20px;
   background: #eee;
   border-radius: 10px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   -webkit-appearance: none;
 }
@@ -291,7 +278,7 @@ input[type="range"]::-webkit-slider-runnable-track {
 label {
   background: #eee;
   border-radius: 50%;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   padding: 1px;
   font-family: Roboto, 'Helvetica Neue', Arial;
   font-size: 20px;
@@ -300,4 +287,45 @@ label {
   color: #2968bb;
   font-weight: bold;
   content: '';
+}
+
+.number{
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 48%;
+
+}
+
+.slidecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.range_slider{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.slidecontainer p{
+  font-size: 10px;
+  color: #4CBEDD;
+}
+
+.zero{
+  top: 425px;
+  position: fixed;
+  left: 40px;
+}
+
+.cent{
+  top: 425px;
+  position: fixed;
+  left: 270px;
 }
