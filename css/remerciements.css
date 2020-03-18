@@ -1,26 +1,54 @@
-* {
-    margin : 0;
-    padding: 0;
-  }
+@font-face {
+    font-family: "Saiyan";
+    src: url("../font/Saiyan-Sans.ttf") format("truetype");
+}
 
-  body {
-    background-color: #b6d7fd;
-  }
-  .container-fluid{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  .logo_declic{
-      margin-top: 30px;
-      margin-bottom: 30px;
-      width: 180px;
-      
-  }
-.remerciements{
-    font-size: 20px;
-    margin-bottom: 150px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 500px;
+    background-color: #4cbfdd;
+}
+
+h1,
+h2 {
+    margin: 0;
     text-align: center;
+}
+h3{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_declic {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.titre1 {
+    margin-top: 15px;
+    font-size: 100px;
+    font-family: "Saiyan";
+}
+
+.titre2 {
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 30px;
 }
 
 .partenaires {
