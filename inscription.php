@@ -57,7 +57,8 @@
             <input type="text" placeholder="Email" name="emailinsc" class="emailinsc" required>
             <input type="password" placeholder="Mot de passe" name="passwordinsc" class="passwordinsc" required>
         </form>
-
+<div class="direction">
+Ce n’est pas votre première fois ici? <a href="connexion.php">Se connecter</a></div>
        <a href="connexion.php"><svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.75 4.75">
             <defs>
                 <style>

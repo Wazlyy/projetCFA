@@ -59,7 +59,10 @@ a{
   align-items: center;
   flex-direction: column;
 }
-
+.direction{
+  color:white;
+  margin-top: 20px;
+}
 .zone_retour {
   /*background-color: royalblue;*/
   width: 100%;
