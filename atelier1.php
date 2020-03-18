@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CFA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/atelier1.css">
     </head>
     
@@ -21,15 +23,21 @@
     <img class="logo2" src="img/logo2.png" width="140px">
     <h3 class="ordre">A quel entrepreneur vous identifiez vous
         le plus ? Classer par ordre de<br>
-        préférence.</h3>
+        préférence. ( déplacez de haut en bas )</h3>
+
+        <div  class="dropper">
 
 
-        <button type="button" class="btn entreprise1">Entreprise 1</button>
-        <button type="button" class="btn entreprise2">Entreprise 2</button>
-        <button type="button" class="btn entreprise3">Entreprise 3</button>
-        <button type="button" class="btn entreprise4">Entreprise 4</button>
-        <button type="button" class="btn entreprise4">Entreprise 5</button>
+        <div  class="draggable">Entreprise 1</div>
+        <div  class="draggable">Entreprise 2</div>
+        <div  class="draggable">Entreprise 3</div>
+        <div  class="draggable">Entreprise 4</div>
+        <div  class="draggable">Entreprise 5</div>
+       
     
+    </div>
+
+        
    
         <div class="col-12 boutonfleche1">
         <a href="atelier2.php">
@@ -40,6 +48,6 @@
 
 
 
-
+<script src="js/atelier1.js" type="text/javascript"></script>
 </body>
 </html>
