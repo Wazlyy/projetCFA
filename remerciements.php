@@ -24,7 +24,7 @@
     VOUS REMERCIE DE VOTRE PARTICIPATION
 </h3>
     </div>      
-   
+</div>
 
     <footer class="partenaires">
         <img class="partenaire1" src="img/logo-simplon.png" />
