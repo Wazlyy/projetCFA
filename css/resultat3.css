@@ -9,6 +9,10 @@ body{
 justify-content: right;
 
 }
+.box{
+  display: flex;
+  justify-content: center;
+}
 
 .res2{
   display: flex;
@@ -171,7 +175,10 @@ justify-content: right;
     font-weight: bold;
     content: '';
   }
-
+.zone_retour{
+ margin-left: 10px;
+ margin-top: 10px;
+}
   /*Zone pagination et bouton suivant*/
   .zone_pagination_at2 
   {
@@ -196,10 +203,16 @@ justify-content: right;
     /*background-color: bisque;*/
     width: 50%;
     display: flex;
-   
+   align-items: center;
     justify-content: space-around;
+    margin-right: 20px;
   }
-  
+  .box{
+    
+    
+   text-align: center;
+
+  }
   .page1
   {
     background-color:#4CBEDD;
@@ -236,4 +249,18 @@ justify-content: right;
   flex-direction: center;
     
     
+  }
+  .centre{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .bouton_next_at2{
+   
+   width: 60px;
+  }
+  .box2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
   }
