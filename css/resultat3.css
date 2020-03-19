@@ -215,7 +215,7 @@ justify-content: right;
   }
   .page1
   {
-    background-color:#4CBEDD;
+    background-color:#fff;
     border: none;
     border-radius: 30px;
     width: 40px;
@@ -232,7 +232,7 @@ justify-content: right;
   }
   .page3
   {
-    background-color: #fff;
+    background-color: #4CBEDD;
     border: none;
     border-radius: 30px;
     width: 40px;
