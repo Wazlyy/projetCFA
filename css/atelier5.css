@@ -33,7 +33,7 @@ body {
     color: #e8e9ea;
   padding: 0;
    justify-content: center;
-   margin-top: 40px; 
+   
 }
 
 #center6{
@@ -89,3 +89,10 @@ body {
     width: 25px;
     margin-top: 20px;
 }
+.boutonfleche1{
+    width: 100px;
+    margin-top: 20px;
+   }
+   .test{
+       width: 70px;
+   }
