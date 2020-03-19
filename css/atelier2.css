@@ -31,24 +31,18 @@ input{
 /*? Zone flèche retour*/
 
 .zone_retour {
-  /*background-color: royalblue;*/
   width: 100%;
   height: 30px;
   margin: 5px 0;
 }
 
-
-/*? Zone Titre H1 + img boussole + instruction*/
-
 .zone_titre_at2 {
-  /*background-color: black;*/
   width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .titre1_at2 {
@@ -93,12 +87,9 @@ input{
   margin-bottom: 40px;
 }
 
-/* ! L'implémentation du slider commence ici*/
-
 /*? Zone multi-slider */
 
 .zone_slider2_at2 {
-  /*background-color: blue;*/
   width: 100%;
   height: 850px;
 }
@@ -112,7 +103,6 @@ input{
 }
 
 .multislider_at2 {
-  /*background-color: brown;*/
   width: 100%;
   height: 750px;
   display: flex;
@@ -126,11 +116,6 @@ input{
   color: white;
 }
 
-/* ! L'implémentation des sliders commence ici*/
-
-
-/*? Zone pagination et button next page */
-
 .zone_pagination_at2 {
   width: 100%;
   height: 132px;
@@ -141,12 +126,14 @@ input{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .pagination_at2 {
   width: 50%;
   display: flex;
   justify-content: space-around;
+  margin-right: 7%;
 }
 
 .page1 {
@@ -192,13 +179,11 @@ input{
   margin-left: 47%;
 }
 
-
 .speaker {
   margin-left: 5%;
   position: absolute;
   width: 10%;
 }
-
 
 input[type="range"] {
   -webkit-appearance: none;
@@ -297,6 +282,8 @@ label {
   background-color: #fff;
   border-radius: 50%;
   margin-right: 48%;
+  font-family: "Saiyan";
+  font-weight: bold;
 
 }
 
@@ -316,16 +303,4 @@ label {
 .slidecontainer p{
   font-size: 10px;
   color: #4CBEDD;
-}
-
-.zero{
-  top: 425px;
-  position: fixed;
-  left: 40px;
-}
-
-.cent{
-  top: 425px;
-  position: fixed;
-  left: 270px;
 }

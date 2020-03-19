@@ -27,12 +27,12 @@
                 <div class="col-12 zone_slider1_at2">
                     
                     <h2 class="txt_slider1_at2">Vous avez été plutôt organisé(e)</h2>
-                    <!-- Slider à introduire ici -->
                     <div class="container-fluid slidecontainer">
-    
+                    <span class="number" id="demo"></span>
+                    <br>
     <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        <br>
-        <span class="number" id="demo"></span>
+        
+        
     </div>
                 </div>
                 <div class="col-9 zone_pag_at2">
