@@ -16,7 +16,7 @@ input {
 .demarrer {
   margin-top: 10%;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   font-weight: bold;
 }
@@ -65,6 +65,7 @@ input {
   font-weight: normal;
   font-style: italic;
   color: aliceblue;
+  margin-bottom: 30px;
 }
 
 .boutonfleche1 {

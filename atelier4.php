@@ -208,10 +208,12 @@
                 }
             </style>
         </defs>
+        <a href="atelier5.php">
         <title>Fichier 2</title>
         <g id="Calque_2" data-name="Calque 2">
             <g id="Calque_1-2" data-name="Calque 1">
-            <a href="atelier5.php">
+            
+            
                 <path class="cls-100" d="M3.9,2.38A1.53,1.53,0,1,1,2.38.85,1.52,1.52,0,0,1,3.9,2.38Z" />
                 <circle class="cls-200" cx="2.38" cy="2.38" r="2.38" />
                 <path class="cls-300" d="M2.6,1.65l.79.74-.79.74-.17-.22.41-.37s0,0-.06,0H1.36v-.3H2.81L2.4,1.88Z" />

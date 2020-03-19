@@ -24,9 +24,10 @@ body{
 .atelier1 {
     
     color      : white;
-    font-size  : 15px;
+    font-size  : 20px;
     text-align : center;
     font-family: Helvetica, sans-serif;
+    font-weight: bold;
 }
 /*Fin/*
 
@@ -73,6 +74,7 @@ cursor: move;
 user-select: none;
 transition: all 200ms linear;
 text-align: center;
+margin-top: 5px;
 }
 
 
@@ -82,6 +84,6 @@ text-align: center;
 /*Bouton suivant*/
 
 .boutonfleche1{
- width: 90px;
+ width: 100px;
  margin-top: 20px;
 }

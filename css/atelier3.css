@@ -45,13 +45,13 @@
     .titre1_at3 {
       text-align   : center;
       color        : white;
-      font-size    : 25px;
+      font-size    : 20px;
       font-weight  : bold;
       margin-bottom: 30px;
     }
 
     .img_at3 {
-        width        : 130px;
+        width        : 110px;
         margin-bottom: 20px;
         
     }
@@ -59,7 +59,7 @@
     .instruction_at3 {
         color     : #D3D3D3;
         font-style: italic;
-        font-size : 20px;
+        font-size : 15px;
         text-align: center;
     }
 
@@ -104,6 +104,6 @@
     }
 
     .button_next_at3 {
-        width: 50px;
+        width: 70px;
         margin-top: 35px;
     }
