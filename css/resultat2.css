@@ -7,63 +7,70 @@ body {
   padding: 0;
 }
 
-.container6{
-    display: flex;
-    align-items: right; 
+.container6
+{
+    display       : flex;
+    align-items   : right; 
     flex-direction: column;
+}
+/*Flag*/
+.zone_flag
+{
+  display        : flex;
+  align-items    : center;
+  justify-content: right;
+}
 
+.flag
+{
+  width    : 80px;
+}
+/*Fin Flag*/
 
+/*QUESTIONS CURSEUR*/
+.zone_question
+{
+    margin-left  : 20px;
+    margin-bottom: 310px;
 }
-.res1{
-color: #fff;
+.res1
+{
+font-size  : 20px;
+color      : white;
+font-weight: bold;
 }
-.res2{
-  color: #fff;
+
+.res2
+{
+color      : #fff;
+font-size  : 20px;
+font-weight: bold;
 }
-.reponse1{
-  color: #fff;
+
+.reponse1
+{
+  color    : #fff;
   font-size: 20px;
 }
-.reponse2{
-  color: #fff;
+
+.reponse2
+{
+  color    : #fff;
   font-size: 20px;
 }
-.reponse3{
-  color: #fff;
+
+.reponse3
+{
+  color    : #fff;
   font-size: 20px;
 }
-.resultat{
-    margin-top: 10%;
-    color: white;
-    font-size: 20px;
-}
+/*FIN QUESTIONS CURSEUR*/
 
-.flag{
-  width: 60px;
- display: flex;
- align-items: right;
- justify-content: right;
-}
-
-.telechargement{
-    color:white;
-    font-size: 15px;
-    text-align: center;
-}
-.texte{
-  color: #daddd9;
-  font-size: 15px;
-  margin-left: 9%;
-  margin-top: 10%;
-  font-family:  Helvetica, sans-serif;
-  font-style:italic ;
-  font-weight: normal;
-
-}
+/*ZONE PAGINATION*/
 .zone_pagination_at2 
 {
   /*background-color: blueviolet;*/
-  width: 100%;
+  width : 100%;
   height: 132px;
   
 }
@@ -71,17 +78,17 @@ color: #fff;
 .zone_pag_at2
 {
   /*background-color: chocolate;*/
-  height: 132px;
-  display: flex;
-  flex-direction: row;
+ 
+  display        : flex;
+  flex-direction : row;
   justify-content: space-around;
-  align-items: center;
+  align-items    : center;
 }
 
 .pagination_at2
 {
   /*background-color: bisque;*/
-  width: 50%;
+  width  : 50%;
   display: flex;
  
   justify-content: space-around;
@@ -90,146 +97,48 @@ color: #fff;
 .page1
 {
   background-color:#fff;
-  border: none;
-  border-radius: 30px;
-  width: 40px;
-  height: 10px;
+  border          : none;
+  border-radius   : 30px;
+  width           : 40px;
+  height          : 10px;
 }
 
 .page2
 {
   background-color: #4CBEDD;
-  border: none;
-  border-radius: 30px;
-  width: 40px;
-  height: 10px;
+  border          : none;
+  border-radius   : 30px;
+  width           : 40px;
+  height          : 10px;
 }
 .page3
 {
   background-color: #fff;
-  border: none;
-  border-radius: 30px;
-  width: 40px;
-  height: 10px;
+  border          : none;
+  border-radius   : 30px;
+  width           : 40px;
+  height          : 10px;
 }
+/*FIN ZONE PAGINATION*/
 
+/*BOUTON SUIVANT*/
 .zone_btn_at2
 {
   /*background-color: darkcyan;*/
  
-  flex-direction: row;
-  display: flex;
+  flex-direction : row;
+  display        : flex;
   justify-content: content;
-flex-direction: center;
-  
-  
+flex-direction   : center;
 }
 
 .bouton_next_at2
 {
-width: 40px;
+width: 60px;
 }
-/*Zonne curseur*/
-.slider{
-  margin-left: 10%;
-}
+/* FIN BOUTON SUIVANT*/
 
-#demo{
-  margin-left: 47%;
-}
-
-
-.speaker{
-  margin-left: 5%;
-  position: absolute;
-  width: 10%;
-}
-
-
-input[type="range"] {
-  -webkit-appearance: none;
-  background: transparent;
-  width: 80%;
-  max-width: 200px;
-  outline: none;
-}
-
-input[type="range"]:focus,
-input[type="range"]:active,
-input[type="range"]::-moz-focus-inner,
-input[type="range"]::-moz-focus-outer {
-  border: 0;
-  outline: none;
-}
-
-input[type="range"]::-moz-range-thumb {
-  border: none;
-  height: 30px;
-  width: 50px;
-  background-color: transparent;
-  background-image: url("https://svgshare.com/i/J7J.svg");
-  background-position: 0 0;
-  background-size: 52px 50px;
-  cursor: pointer;
-}
-
-input[type="range"]::-moz-range-thumb:active {
-  background-position: 100% 0px;
-}
-
-input[type="range"]::-moz-range-track {
-  width: 100%;
-  height: 20px;
-  background: #eee;
-  border-radius: 10px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-  cursor: pointer;
-}
-
-input[type="range"]::-moz-range-progress {
-  height: 20px;
-  background: #4685d7;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  border: none;
-  height: 50px;
-  width: 50px;
-  background-color: transparent;
-  background-image: url("https://svgshare.com/i/J7J.svg");
-  background-position: 0 0;
-  background-size: 52px 50px;
-  cursor: pointer;
-  margin-top: -15px;
-  -webkit-appearance: none;
-}
-
-input[type="range"]::-webkit-slider-thumb:active {
-  background-position: 100% 0px;
-}
-
-input[type="range"]::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 20px;
-  background: #eee;
-  border-radius: 10px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-  cursor: pointer;
-  -webkit-appearance: none;
-}
-
-label {
-  background: #eee;
-  border-radius: 50%;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-  padding: 1px;
-  font-family: Roboto, 'Helvetica Neue', Arial;
-  font-size: 20px;
-  width: 25px;
-  text-align: center;
-  color: #2968bb;
-  font-weight: bold;
-  content: '';
-}
+/*Zone curseur ANTOINE*/
+/*Les curseurs sont ceux des résultats que l'on aura récupérés des 
+ateliers 1 à 5, donc est-ce qu'il faut que tu les insérer?
+/* FIN Zone curseur ANTOINE*/
