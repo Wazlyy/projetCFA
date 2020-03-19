@@ -11,8 +11,9 @@
 </head>
 <body>
 <div class="col-12 zone_retour">
-                    <img class="fleche_retour" src="img/icon-gauche.png" alt="fleche_retour" />
-                </div>
+        <a href="atelier5.php">
+            <img class="fleche_retour" src="img/icon-gauche.png" alt="fleche_retour" />
+    </div></a>
 <div class="container5">
     <h3 class="resultat">RESULTATS</h3>
 

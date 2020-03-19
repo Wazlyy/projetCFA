@@ -1,52 +1,52 @@
 /*Atelier 1*/
-body{
-  background-color:#979996;
+body {
+  background-color: #979996;
   margin: 0;
-  margin-left: 8px;
-  margin-right: 8px;
-  
+
 }
+
 .container4 {
-    display       : flex;
-    align-items   : center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
 /*? Zone flèche retour*/
 
 .zone_retour {
   /*background-color: royalblue;*/
-  width : 100%;
+  width: 100%;
   height: 10px;
-  margin: 5px 0 ;
+  margin: 5px 0;
 }
 
 /*Atelier 1 et rencontre avec entreprise*/
 .atelier1 {
-    
-    color      : white;
-    font-size  : 20px;
-    text-align : center;
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
+
 /*Fin/*
 
 /*A quel entrepreneur vous identifiez vous
         le plus ? Classer par ordre de
         préférence.*/
 .ordre {
-    color      : rgb(238, 238, 238);
-    font-size  : 15px;
-    text-align : center;
-    font-family: Helvetica, sans-serif;
-    font-style : italic;
-    font-weight: normal;
+  color: rgb(238, 238, 238);
+  font-size: 15px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
 }
 
 /*Fin*/
 
 /*Pour les 5 entreprises*/
-.dropper{
+.dropper {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -58,23 +58,22 @@ body{
 
 
 
-.draggable{
-  margin-bottom   : 12px;
-  color           : white;
+.draggable {
+  margin-bottom: 12px;
+  color: white;
   background-color: #4CBEDD;
-  border          : 3px solid
-#4CBEDD;
-border-radius: 20px;
-width        : 90%;
-font-size    : 15px;
-height       : 33px;
-font-family  : Helvetica, sans-serif;
-font-weight  : bold;
-cursor: move;
-user-select: none;
-transition: all 200ms linear;
-text-align: center;
-margin-top: 5px;
+  border: 3px solid #4CBEDD;
+  border-radius: 20px;
+  width: 90%;
+  font-size: 15px;
+  height: 33px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: move;
+  user-select: none;
+  transition: all 200ms linear;
+  text-align: center;
+  margin-top: 5px;
 }
 
 
@@ -83,7 +82,7 @@ margin-top: 5px;
 
 /*Bouton suivant*/
 
-.boutonfleche1{
- width: 100px;
- margin-top: 20px;
+.boutonfleche1 {
+  width: 100px;
+  margin-top: 20px;
 }

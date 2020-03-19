@@ -3,139 +3,129 @@ body {
 }
 
 * {
-  margin : 0;
+  margin: 0;
   padding: 0;
 }
 
-.container6
-{
-    display       : flex;
-    align-items   : right; 
-    flex-direction: column;
-}
+.zone_retour {
+  /*background-color: royalblue;*/
+  width: 100%;
+  height: 10px;
+  margin: 5px 0;
+} 
 /*Flag*/
-.zone_flag
-{
-  display        : flex;
-  align-items    : center;
+.zone_flag {
+  display: flex;
+  align-items: center;
   justify-content: right;
 }
 
-.flag
-{
-  width    : 80px;
+.flag {
+  width: 80px;
 }
+
 /*Fin Flag*/
 
 /*QUESTIONS CURSEUR*/
-.zone_question
-{
-    margin-left  : 20px;
-    margin-bottom: 310px;
-}
-.res1
-{
-font-size  : 20px;
-color      : white;
-font-weight: bold;
+.zone_question {
+  margin-left: 20px;
+  margin-bottom: 310px;
 }
 
-.res2
-{
-color      : #fff;
-font-size  : 20px;
-font-weight: bold;
+.res1 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
 }
 
-.reponse1
-{
-  color    : #fff;
+.res2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.reponse1 {
+  color: #fff;
   font-size: 20px;
 }
 
-.reponse2
-{
-  color    : #fff;
+.reponse2 {
+  color: #fff;
   font-size: 20px;
 }
 
-.reponse3
-{
-  color    : #fff;
+.reponse3 {
+  color: #fff;
   font-size: 20px;
 }
+
 /*FIN QUESTIONS CURSEUR*/
 
 /*ZONE PAGINATION*/
-.zone_pagination_at2 
-{
+.zone_pagination_at2 {
   /*background-color: blueviolet;*/
-  width : 100%;
+  width: 100%;
   height: 132px;
-  
+
 }
 
-.zone_pag_at2
-{
+.zone_pag_at2 {
   /*background-color: chocolate;*/
- 
-  display        : flex;
-  flex-direction : row;
-  justify-content: space-around;
-  align-items    : center;
-}
 
-.pagination_at2
-{
-  /*background-color: bisque;*/
-  width  : 50%;
   display: flex;
- 
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagination_at2 {
+  /*background-color: bisque;*/
+  width: 50%;
+  display: flex;
+
   justify-content: space-around;
 }
 
-.page1
-{
-  background-color:#fff;
-  border          : none;
-  border-radius   : 30px;
-  width           : 40px;
-  height          : 10px;
+.page1 {
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
 }
 
-.page2
-{
+.page2 {
   background-color: #4CBEDD;
-  border          : none;
-  border-radius   : 30px;
-  width           : 40px;
-  height          : 10px;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
 }
-.page3
-{
+
+.page3 {
   background-color: #fff;
-  border          : none;
-  border-radius   : 30px;
-  width           : 40px;
-  height          : 10px;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
 }
+
 /*FIN ZONE PAGINATION*/
 
 /*BOUTON SUIVANT*/
-.zone_btn_at2
-{
+.zone_btn_at2 {
   /*background-color: darkcyan;*/
- 
-  flex-direction : row;
-  display        : flex;
+
+  flex-direction: row;
+  display: flex;
   justify-content: content;
-flex-direction   : center;
+  flex-direction: center;
 }
 
-.bouton_next_at2
-{
-width: 60px;
+.bouton_next_at2 {
+  width: 60px;
 }
+
 /* FIN BOUTON SUIVANT*/
 
 /*Zone curseur ANTOINE*/

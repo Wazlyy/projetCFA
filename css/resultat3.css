@@ -175,10 +175,12 @@ justify-content: right;
     font-weight: bold;
     content: '';
   }
-.zone_retour{
- margin-left: 10px;
- margin-top: 10px;
-}
+  .zone_retour {
+    /*background-color: royalblue;*/
+    width: 100%;
+    height: 10px;
+    margin: 5px 0;
+  } 
   /*Zone pagination et bouton suivant*/
   .zone_pagination_at2 
   {
@@ -215,7 +217,7 @@ justify-content: right;
   }
   .page1
   {
-    background-color:#fff;
+    background-color:#4CBEDD;
     border: none;
     border-radius: 30px;
     width: 40px;
@@ -232,7 +234,7 @@ justify-content: right;
   }
   .page3
   {
-    background-color: #4CBEDD;
+    background-color: #fff;
     border: none;
     border-radius: 30px;
     width: 40px;
