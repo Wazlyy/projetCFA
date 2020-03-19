@@ -31,7 +31,8 @@ body {
 .atelier1 {
   margin-bottom: 5%;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
   font-family: Helvetica, sans-serif;
 }
