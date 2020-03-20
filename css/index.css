@@ -46,7 +46,7 @@ a {
 .titre2 {
     font-size: 20px;
     font-family: Helvetica, sans-serif;
-    margin-bottom: 45%;
+   margin-bottom: 15px;
 }
 
 
@@ -77,3 +77,17 @@ a {
     width: 15%;
     margin-right: 5px;
 }
+
+.zone_suivant{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.boutonfleche1 {
+    
+    width: 80px;
+    margin-top: 10%;
+  }
+  .arrow {
+    width: 100%;
+  }
