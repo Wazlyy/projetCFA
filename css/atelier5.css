@@ -104,8 +104,10 @@ body {
 }
 
 .boutonfleche1 {
+    display: flex;
+    justify-content: center;
     width: 100px;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .test {

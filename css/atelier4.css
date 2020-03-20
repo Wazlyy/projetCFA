@@ -3,8 +3,9 @@ body {
 }
 
 .arrow2{
-  width: 25%;
-  margin-left: 38%;
+  width: 70px;
+  margin-left: 40%;
+ 
 }
 
 .arrow {
@@ -32,6 +33,7 @@ body {
   height: 10px;
   margin: 5px 0;
 }
+
 
 /*Atelier 1 et rencontre avec entreprise*/
 .atelier1 {
@@ -195,7 +197,7 @@ label {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 5%;
+  margin-bottom: 40px;
 }
 
 .range_slider {

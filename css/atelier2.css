@@ -48,14 +48,14 @@ input{
 .titre1_at2 {
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
 .img_boussole_at2 {
   margin-bottom: 30px;
-  width: 140px;
+  width: 130px;
 }
 
 .img_boussole_at2 path {
@@ -292,6 +292,7 @@ label {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 80px;
 }
 
 .range_slider{
