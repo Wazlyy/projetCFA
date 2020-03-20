@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/resultat2.css">
 </head>
 <body>
-<div class="col-12 zone_retour"> <a href="resultat1.html"> <img class="fleche_retour" src="img/icon-gauche.png" alt="fleche_retour" /> </div>
+<div class="col-12 zone_retour"> <a href="resultat1.php"> <img class="fleche_retour" src="img/icon-gauche.png" alt="fleche_retour" /> </div>
 </a>
 	<div class="container-fluid">
 		<div class="row">

@@ -46,31 +46,10 @@ a {
 .titre2 {
     font-size: 20px;
     font-family: Helvetica, sans-serif;
+    margin-bottom: 45%;
 }
 
-.zone_btn {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    height: auto;
-}
 
-.btn_inscription,
-.btn_connexion {
-    background-color: transparent;
-    border-radius: 20px;
-    border: solid 2px white;
-    width: 130px;
-    height: 40px;
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
-    color: white;
-    margin-bottom: 85px;
-
-}
 
 .partenaires {
     background-color: white;
