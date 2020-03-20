@@ -107,8 +107,14 @@
                 </svg>
             </label> Télecharger la photo de votre idée</div>
         <div id="center6" class="col-md-12">J’ai su être créatif/créative</div>
-        <div class="col-md-12">
-            <!--ICI TA BARRE ANTOINE-->
+        
+        <div class="container-fluid slidecontainer">
+                    <span class="number" id="demo2"></span>
+                    <br>
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange2">
+        
+        
+    </div>
         </div>
 
 
@@ -149,7 +155,7 @@
     </div>
 
 
-   
+    <script type="text/javascript" src="js/slide2.js"></script>
 </body>
 
 </html>
